@@ -1,0 +1,22 @@
+# candidate datasets for eDNA category
+keep:
+  publisherKey:
+    - ab733144-7043-4e88-bd4f-fca7bf858880 # MGnify 
+  searchQuery: 
+    - MDT
+    - converter
+    - metabarcod
+    - metagenom
+    - eDNA
+    - shotgun
+    - 18S
+    - 16S
+
+exclude:
+  publisherKey: []
+  searchQuery: 
+    - birds # just as example 
+
+machineTag: 
+  - name: datasetCategory.gbif.org
+    value: eDNA
