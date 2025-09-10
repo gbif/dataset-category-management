@@ -29,21 +29,13 @@ jobs:
           Rscript -e "pak::pkg_install(c('httr','yaml','data.table','dplyr','rgbif','tibble','readr','stringr','purrr'))"
           Rscript -e "pak::pkg_install('jhnwllr/gbifmt')"
 
-    #   - name: Run R scripts
-    #     run: |
-    #       Rscript R/create_mt.R
-    #       Rscript R/delete_mt.R
-    #       Rscript R/get_candidates.R
+      - name: Run shell scripts
+        run: |
+          bash run.sh
 
-    #   - name: Run shell scripts
-    #     run: |
-    #       bash shell/create-issue.sh
-    #       bash shell/create-mt.sh
-
-    #   - name: List output files
-    #     run: |
-    #       ls -l candidate-tsv/
-    #       ls -l category-configs/
+      - name: List output files
+        run: |
+          head candidate-tsv/eDNA.tsv
 
         #   - name: Commit & push changes
         # uses: stefanzweifel/git-auto-commit-action@v5
