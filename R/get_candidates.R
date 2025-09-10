@@ -10,7 +10,6 @@ cat <- cats[1]
 config <- yaml.load_file(paste0("category-configs/",cat,".yaml"))
 config
 
-
 from_search_query <- function(query) {
     lapply(query, function(x) { 
         rgbif::dataset_export(q=x) |>
@@ -74,7 +73,7 @@ if(!is.null(es)) {
     cand <- cand |> dplyr::filter(!datasetKey %in% es)
 }
 
-readr::write_tsv(cand, paste0("candidate-tsv/candidates-",cat,".tsv"))
+readr::write_tsv(cand, paste0("candidate-tsv/",cat,".tsv"))
 
 
 # dataset_get("aaa6496a-d3ce-403b-be1f-8f21ba409784") |>

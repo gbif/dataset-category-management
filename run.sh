@@ -1,6 +1,8 @@
 #!/bin/bash
- 
-echo "Searching for dataset category candidates ..."
+
+# Rscript R/get_candidates.R
+# bash shell/create-issue.sh
+bash shell/create-mt.sh
 
 
 

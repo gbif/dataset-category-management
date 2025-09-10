@@ -2,7 +2,7 @@
 keep:
   publisherKey:
     - ab733144-7043-4e88-bd4f-fca7bf858880 # MGnify 
-  searchQuery: 
+  searchQuery: # please use only single words
     - MDT
     - converter
     - metabarcod
@@ -18,5 +18,7 @@ exclude:
     - birds # just as example 
 
 machineTag: 
-  - name: datasetCategory.gbif.org
-    value: eDNA
+    namespace: 
+      - datasetCategory.gbif.org
+    value: 
+      - eDNA
