@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
+  GBIF_USER: ${{ secrets.GBIF_USER }}
+  GBIF_PWD: ${{ secrets.GBIF_PWD }}
+
 jobs:
   run-project:
     runs-on: ubuntu-latest
@@ -14,7 +19,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev
-        
+
+      - name: Check GitHub CLI version
+        run: gh --version
+          
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -33,9 +41,15 @@ jobs:
         run: |
           bash run.sh
 
-      - name: List output files
+      - name: Check if files were updated
         run: |
           head candidate-tsv/eDNA.tsv
+          echo "Number of lines in eDNA.tsv:"
+          wc -l candidate-tsv/eDNA.tsv
+          echo "Number of lines in issue_log.txt:"
+          head issue_log.txt
+          wc -l issue_log.txt
 
-        #   - name: Commit & push changes
-        # uses: stefanzweifel/git-auto-commit-action@v5
+        
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
