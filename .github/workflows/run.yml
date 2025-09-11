@@ -10,6 +10,7 @@ env:
   GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
   GBIF_USER: ${{ secrets.GBIF_USER }}
   GBIF_PWD: ${{ secrets.GBIF_PWD }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   run-project:
@@ -31,6 +32,22 @@ jobs:
         with:
           r-version: '4.3.1'
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/R
+          key: ${{ runner.os }}-r-${{ hashFiles('**/*.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-r-
+
+      - name: Cache pak
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/R/pak
+          key: ${{ runner.os }}-pak-${{ hashFiles('**/*.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pak-
+
       - name: Install R dependencies
         run: |
           Rscript -e "install.packages('pak', repos='https://cloud.r-project.org/')"
@@ -47,8 +64,8 @@ jobs:
           echo "Number of lines in eDNA.tsv:"
           wc -l candidate-tsv/eDNA.tsv
           echo "Number of lines in issue_log.txt:"
-          head issue_log.txt
-          wc -l issue_log.txt
+          head shell/issue_log.txt
+          wc -l shell/issue_log.txt
 
         
       - name: Commit & push changes
