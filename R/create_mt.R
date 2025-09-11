@@ -10,7 +10,6 @@ cat <- cats[1] # only one exists right now
 config <- yaml.load_file(paste0("category-configs/",cat,".yaml"))
 
 datasetKey <- args[1]
-datasetKey <- "fceb1041-5194-4940-967c-b0479f562a3b"
 
 # need to add this the gbifmt package eventually 
 get_mt_datasetkey <- function(datasetKey) {
