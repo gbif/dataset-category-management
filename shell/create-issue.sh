@@ -36,7 +36,7 @@ for file in candidate-tsv/*; do
         if ! gh issue list --state all --search "$title" --label "$datasetKey" --label "$datasetCategory" | grep "$title" | grep "$datasetKey" | grep -q "$datasetCategory"; then
             echo "creating new issue"
             # Create the issue
-            gh issue create --title "$title" --body "$body" --label "$label"
+            gh issue create --title "$title" --body "$body" --label "$label" || exit 1
             echo -e "$datasetKey\t$datasetCategory" >> "shell/issue_log.txt"
         else
             echo "Issue with already exists. Skipping creation."

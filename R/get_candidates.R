@@ -1,4 +1,3 @@
-
 library(rgbif)
 library(gbifmt)
 library(yaml)
@@ -60,7 +59,7 @@ cand <- merge(kp, ks, by="datasetKey", all=TRUE)
 # add additional information for GitHub issue
 if(nrow(cand) > 0) {
 cand <- cand |> 
-dplyr::mutate(title = sapply(cand$datasetKey, function(x) rgbif::dataset_get(x)$title)) |>
+dplyr::mutate(title = sapply(cand$datasetKey, function(x) gsub("[\t\r\n]", "", rgbif::dataset_get(x)$title))) |>
 dplyr::mutate(publisher = sapply(cand$datasetKey, function(x) rgbif::dataset_get(x)$publishingOrganizationKey)) |>
 dplyr::mutate(datasetCategory = cat) 
 }
