@@ -18,7 +18,7 @@ exclude:
     - birds # just as example 
 
 # automatically tags datasets with machine-tag label 
-autoMachineTabLabel: 
+autoLabel: 
   - MDT
   - converter
   - pub:ab733144-7043-4e88-bd4f-fca7bf858880
