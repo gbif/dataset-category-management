@@ -14,17 +14,16 @@ keep:
 
 exclude:
   publisherKey: []
-  searchQuery: 
-    - birds # just as example 
-
+  searchQuery: []
+  
 # automatically tags datasets with machine-tag label 
 autoLabel: 
   - MDT
   - converter
   - pub:ab733144-7043-4e88-bd4f-fca7bf858880
 
-machineTag: 
-    namespace: 
-      - datasetCategory.gbif.org
-    value: 
-      - eDNA
+# machineTag: 
+#     namespace: 
+#       - datasetCategory.gbif.org
+#     value: 
+#       - eDNA

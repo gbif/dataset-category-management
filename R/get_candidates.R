@@ -1,7 +1,7 @@
+
 library(rgbif)
 library(gbifmt)
 library(yaml)
-
 
 cats <- yaml.load_file("config.yaml")$categories
 
@@ -41,20 +41,23 @@ if(!length(config$exclude$publisherKey) == 0) {
 } else {
     ep <- NULL
 }
-if(!is.null(config$exclude$searchQuery)) {
+if(!length(config$exclude$searchQuery) == 0) {
     es <- from_search_query(config$exclude$searchQuery)$datasetKey
 } else {
     es <- NULL
 }
 
-# es |> dplyr::glimpse()
-# ep |> dplyr::glimpse()
-
-ks |> dplyr::glimpse()
-kp |> dplyr::glimpse()
-
 nrow(kp)
+
 cand <- merge(kp, ks, by="datasetKey", all=TRUE) 
+
+# filter out datasetKeys that are already in shell/issue_log.txt
+if(file.exists("shell/issue_log.txt")) {
+    logged_data <- readr::read_tsv("shell/issue_log.txt", col_names = FALSE, show_col_types = FALSE)
+    if(nrow(logged_data) > 0 && nrow(cand) > 0) {
+        cand <- cand[!(cand$datasetKey %in% logged_data$X1),]
+    }
+}
 
 # add additional information for GitHub issue
 if(nrow(cand) > 0) {
@@ -74,14 +77,4 @@ if(!is.null(es)) {
 
 readr::write_tsv(cand, paste0("candidate-tsv/",cat,".tsv"))
 
-
-# dataset_get("aaa6496a-d3ce-403b-be1f-8f21ba409784") |>
-# dplyr::glimpse()
-
-# get_mt(machineTagNamespace="testMachineTag.jwaller.gbif.org")
-
-# dataset_search(keyword = "MDT")
-# dataset_search(q = "MDT")
-# dataset_search(keyword = "converter")
-# dataset_search(q = "converter")
 

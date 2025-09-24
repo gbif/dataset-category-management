@@ -1,8 +1,6 @@
 #!/bin/bash
 
-Rscript R/get_candidates.R
-# bash shell/create-issue.sh
-# bash shell/auto-label-mt.sh
-# bash shell/create-mt.sh
-
-
+Rscript R/get_candidates.R || exit 1
+bash shell/create-issue.sh || exit 1
+bash shell/auto-label.sh || exit 1
+bash shell/create-category-from-issue.sh || exit 1
