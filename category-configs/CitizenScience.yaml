@@ -1,0 +1,59 @@
+# candidate datasets for CitizenScience category
+keep:
+  publisherKey:
+    - 28eb1a3f-1c15-4a95-931a-4af90ecb574d # iNaturalist 
+    - 1989b627-2a61-44db-83e4-392efc5da0a9 # Divebord
+    - da86174a-a605-43a4-a5e8-53d484152cd3 # Pl@ntNet
+    - 5d662340-07fa-41b7-a3fc-e2e63ca50800 # Seasearch
+    - f1f8a1e3-d00a-4f73-a9c0-afe7674ff948 # Danske-Dyr, Condidact
+    - 1ed074ff-5644-461a-90db-5da4d7656f3f # Merseyside BioBank
+    - b2dbd210-90c2-11df-86a3-b8a03c50a862 # Tela Botanica
+    - 147d711e-8a02-4b67-b4ce-918abd7dbb76 # Natagora
+    - 2754e9c0-0e43-4f65-968a-6f16b9c378ce # ArtenFinder 
+  searchQuery: # please use only single words
+    - citizen
+    - volunteer
+    - natuurpunt
+    - inaturalist
+    - children
+    - clubs
+    - happywhale 
+    - facebook
+    - seaturtleorg
+    - bioblitz
+    - participative
+    - ciudadana
+    - irecord
+    - natuurpunt
+    - participate
+    - amateur 
+    - participatives
+    - cidadã
+    - bénévoles 
+    - artportalen
+    - spotters
+    - ebird
+    - notebook
+    - enthusiasts 
+    - cardobs
+
+exclude:
+  publisherKey: []
+  searchQuery: []
+
+# automatically tags datasets with machine-tag label 
+autoLabel: 
+    - inaturalist
+    - happywhale
+    - bioblitz
+    - irecord
+    - pub:28eb1a3f-1c15-4a95-931a-4af90ecb574d # iNaturalist 
+    - pub:1989b627-2a61-44db-83e4-392efc5da0a9 # Divebord
+    - pub:da86174a-a605-43a4-a5e8-53d484152cd3 # Pl@ntNet
+    - pub:5d662340-07fa-41b7-a3fc-e2e63ca50800 # Seasearch
+    - pub:f1f8a1e3-d00a-4f73-a9c0-afe7674ff948 # Danske-Dyr, Condidact
+    - pub:1ed074ff-5644-461a-90db-5da4d7656f3f # Merseyside BioBank
+    - pub:b2dbd210-90c2-11df-86a3-b8a03c50a862 # Tela Botanica
+    - pub:147d711e-8a02-4b67-b4ce-918abd7dbb76 # Natagora
+    - pub:2754e9c0-0e43-4f65-968a-6f16b9c378ce # ArtenFinder 
+

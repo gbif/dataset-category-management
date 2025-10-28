@@ -18,13 +18,13 @@ If you want to automatically label issues with a certain label, you add that lab
 
 ## supported categories
 
-Currently we only support one category for testing:
+Currently we support the following categories:
 
 * eDNA
+* CitizenScience
 
 We are also expected to support the following categories in the future:
 
-* CitizenScience
 * BusinessSector 
 
 

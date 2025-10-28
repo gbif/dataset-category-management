@@ -22,8 +22,3 @@ autoLabel:
   - converter
   - pub:ab733144-7043-4e88-bd4f-fca7bf858880
 
-# machineTag: 
-#     namespace: 
-#       - datasetCategory.gbif.org
-#     value: 
-#       - eDNA
