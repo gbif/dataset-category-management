@@ -35,7 +35,6 @@ keep:
     - ebird
     - notebook
     - enthusiasts 
-    - cardobs
 
 exclude:
   publisherKey: []
