@@ -37,11 +37,11 @@ for file in candidate-tsv/*; do
         [ "$publisherKey" != "NA" ] && label+="pub:$publisherKey,"
         [ "$searchQuery" != "NA" ] && label+="$searchQuery,"
         # check if issue is log file 
-        existing_issue=$(awk -F'\t' -v cat="$datasetCategory" '$2 == cat {print $1}' shell/issue_log.txt)
-        if echo "$existing_issue" | grep -qw "$datasetKey"; then
+        # Check if this exact datasetKey + datasetCategory combination exists in the log
+        if grep -Fq "${datasetKey}	${datasetCategory}" shell/issue_log.txt; then
             echo "DatasetKey $datasetKey already exists for category $datasetCategory. Skipping."
             continue
-        fi
+        fi        
         # creating issue 
         label="${label%,}"  # Remove trailing comma
         label="${label//[[:space:]]/}"
