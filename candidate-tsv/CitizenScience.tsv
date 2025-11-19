@@ -129,6 +129,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 09c16d04-723a-4896-bb83-856824aa7c76	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""michateau""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 09e90dfb-5b1b-4dd9-a796-e2fba53d26f0	NA	bioblitz	Inventory and BioBlitz Records from rare Charitable Research Reserve	296fe5cf-ae43-4212-8f77-293e807d0d5a	CitizenScience
 09efcc43-c674-4a70-b326-cd83f7463d1d	NA	citizen	Occurrences of the invasive plant species Heracleum sosnowskyi Manden. in the Komi Republic territory (European North-East Russia)	cb55694d-f3b8-451c-999e-d9286d7dfc86	CitizenScience
+09f6ccd2-1b5b-4a37-83c2-b90d3b8e582b	NA	volunteer	Swiss National Spider Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 0a013f89-5381-4578-9d82-5f28fd5f1ef6	NA	irecord	Vascular plant records verified via iRecord	aa569acf-991d-4467-b327-8442f30ddbd2	CitizenScience
 0a0b594e-0c5e-4766-a5d7-66043160de5f	NA	volunteer	Swiss National Fauna Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 0a12c7a3-9f80-446f-93c8-8b7e9eae6f63	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""numero15""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -263,7 +264,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 1618f3fb-18fe-4808-9e80-5b719bfd52cb	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""aivlysrose""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 16409614-6976-44b0-8744-23fde2bcc617	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""max_duke""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 16460557-879e-489b-8c5f-0bb62c0048ad	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""ludeau33""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
-168a216a-4f1f-4f1f-8657-ecd92f03a823	NA	volunteer	Swiss National Butterflies and Forester Moths Databank	23e067c0-a255-11da-beae-b8a03c50a862	CitizenScience
+168a216a-4f1f-4f1f-8657-ecd92f03a823	NA	volunteer	Swiss National Butterflies and Forester Moths Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 1694d06b-e95c-4e5b-9f5d-6f8241c93526	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""charlolepoulpe""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 16cc691b-4dc6-4329-b171-9cd67e7f86ec	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""samuelimker""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 17014626-39f5-4fe1-9181-d645bec45580	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""jabo0021""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -1298,6 +1299,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 66f39e15-e74d-491c-b5d2-397cd6bad884	NA	amateur	DASSH Data Archive Centre expert sightings records	f6b48504-1651-4a49-a88d-c2bc6178694d	CitizenScience
 66f6192f-6cc0-45fd-a2d1-e76f5ae3eab2	1989b627-2a61-44db-83e4-392efc5da0a9	citizen, participate	Diveboard - Scuba diving citizen science observations	1989b627-2a61-44db-83e4-392efc5da0a9	CitizenScience
 66fbfd7b-93a5-473c-93c6-afc334092528	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""ambreczt""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+6710ad60-8e27-4a88-8673-4b89d7cd6192	NA	volunteer	Swiss National Moths Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 671f6a4f-2b1a-4e02-96b8-ae1fc9be23c9	NA	happywhale	Happywhale - King Penguin in South Atlantic Ocean	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	CitizenScience
 67578dd9-1819-4682-8570-27bd8f3c175d	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""cjc84""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 676a7eff-8393-4b0d-bf31-bdb004804797	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes Antoine Edé (antoineede)	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -1539,6 +1541,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 7c1f7363-799b-4cf8-a3fa-388ec43d4151	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes Michaël Pasquet (reconquetevegetale)	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 7c2bc74c-43d2-47a4-b174-25d056b27553	NA	happywhale	Happywhale - Short-beaked common dolphin in North Atlantic Ocean	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	CitizenScience
 7c445d60-2189-4ff2-947d-f0033408e270	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""jodelavega""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+7c750586-0f9f-4910-ac12-4179aa110c47	NA	volunteer	Swiss National Reptile Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 7c866745-b395-4184-be9e-adc323a9638f	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""annepyrenees""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 7c8fc64c-a2ed-483f-9814-542a4d1465a2	NA	happywhale	Happywhale - Peale's dolphin in South Pacific Ocean	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	CitizenScience
 7c909f1f-4503-44d5-9658-e06dac241bce	NA	ciudadana	Semillas asociadas a las excretas de aves visitantes a comederos artificiales en un ambiente urbano de Medellín	450bdfce-76f7-483e-b4c4-cab6a3daebba	CitizenScience
@@ -2148,6 +2151,7 @@ af863028-c4f1-4abc-9b3f-dc27685829e1	NA	inaturalist	Données naturalistes opport
 af953be5-b3bf-4672-b160-3d066fabb64e	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""golbezfr""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 afa180ad-feb4-4b0c-bbf0-974cf35230ae	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes Livio Rey (liviorey)	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 afc00126-a586-4976-9a3e-674c8d8dc7d8	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""pititeflower""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+b037d381-2b77-4f31-adca-91038a33b860	NA	volunteer	Swiss National Vespoidea Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 b047f2ce-3b73-4389-b6b9-bea34ce8d561	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""gtrille""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 b05e0f3b-474c-46b0-af94-665af99eea70	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""cpeyron""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 b069ca97-d0e0-43f5-aa22-51c17b779503	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""heraitze""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -2199,6 +2203,7 @@ b3b380aa-099a-4f95-9b3a-3699d244eed3	NA	inaturalist	Données naturalistes opport
 b3d40286-603b-47ee-bcaa-e829c383675d	NA	citizen, facebook, participate	National Parks Association of NSW Great Koala Count	3c5e4331-7f2f-4a8d-aa56-81ece7014fc8	CitizenScience
 b3d556d5-adc2-4b63-8827-2709089a95b8	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""oui""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 b3dfb4e8-164e-4b1b-bfb1-143321d5a70a	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""corinneb64""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+b3dfb773-6198-4d07-8b7b-e286924b19e3	NA	volunteer	Swiss Records of Native Faunistic Species	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 b3e0a01c-5412-4ab5-bf9a-cd32cbecc87c	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""ejthomas""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 b3e6f05b-9117-4613-9ec6-f5f5208af78c	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""zoe_dubr""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 b3e8845f-0137-44a0-b3e4-86223ba2fcbd	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""av44390""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -2563,7 +2568,7 @@ d2d3afdb-a3ee-48f5-b619-87472da705d9	NA	inaturalist	Données naturalistes opport
 d2dc0baa-4263-4a1f-a5d8-87a608b20d16	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""melinonette""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 d2e89bec-493c-496b-9646-43d5f28983cd	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""chlbrt""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 d2fffa54-b789-46a0-8c2c-49fe971a0e6e	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""salticids""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
-d31e5f16-0505-4e41-a732-74d924d20eda	NA	volunteer	Swiss National Amphibian Databank	23e067c0-a255-11da-beae-b8a03c50a862	CitizenScience
+d31e5f16-0505-4e41-a732-74d924d20eda	NA	volunteer	Swiss National Amphibian Databank	64ee55c9-570a-42af-b7da-3f13c6b4e5a9	CitizenScience
 d352fda7-d963-4de2-a41f-62708083b5e0	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""montsec""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 d35cb4f6-6038-443d-a443-efb7032fe795	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""delpechnicolas""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 d35e25c1-3b95-4ad2-ba82-d050dd89464d	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""ryanavery""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
