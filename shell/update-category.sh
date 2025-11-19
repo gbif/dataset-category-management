@@ -66,24 +66,30 @@ if [ "$key_count_start" -eq 0 ]; then
   exit 1
 fi
 
-# Check if any category exists and exit if so 
+# Check if any category exists - continue processing instead of exiting
 category_count=$(echo "$dataset_json" | jq '.category | length // 0')
 if [ "$category_count" -gt 0 ]; then
-  echo "Categories exist for dataset $uuid_dataset. Exiting script."
+  echo "Categories exist for dataset $uuid_dataset. Will append new category $category."
+  echo "Current categories:"
   echo "$dataset_json" | jq '.category'
-  exit 0
+  
+  # Check if the category already exists
+  category_exists=$(echo "$dataset_json" | jq --arg cat "$category" '.category | contains([$cat])')
+  if [ "$category_exists" = "true" ]; then
+    echo "Category '$category' already exists. No changes needed."
+    exit 0
+  fi
+  
+  # Append the new category to existing ones
+  dataset_json=$(echo "$dataset_json" | jq --arg cat "$category" '.category += [$cat]')
+  echo "Updated categories:"
+  echo "$dataset_json" | jq '.category'
 else
-  echo "No categories exist for dataset $uuid_dataset. Proceeding to add category $category."
+  echo "No categories exist for dataset $uuid_dataset. Adding category $category."
   echo "current categories:"
   echo "$dataset_json" | jq '.category'
-fi
-
-# Check if 'category' field exists in dataset_json
-has_category=$(echo "$dataset_json" | jq 'has("category")')
-if [ "$has_category" = "true" ]; then
-  echo "'category' field exists in dataset_json."
-else
-  echo "'category' field does NOT exist in dataset_json. Adding it."
+  
+  # Add the category field with the new category
   dataset_json=$(echo "$dataset_json" | jq --arg cat "$category" '.category = [$cat]')
   echo "Updated dataset_json with new category:"
   echo "$dataset_json" | jq '.category'
@@ -132,8 +138,14 @@ fi
 key_count_final=$(echo "$dataset_json" | jq 'keys | length')
 echo "Number of top-level keys: $key_count_final"
 
-# Check that key_count_final is key_count_start + 1
-expected_count=$((key_count_start + 1))
+# Update key count validation - only expect increase if category field didn't exist
+has_category=$(echo "$dataset_json" | jq 'has("category")')
+if [ "$has_category" = "true" ] && [ "$category_count" -eq 0 ]; then
+  expected_count=$((key_count_start + 1))
+else
+  expected_count=$key_count_start
+fi
+
 if [ "$key_count_final" -ne "$expected_count" ]; then
   echo "Unexpected number of top-level keys: expected $expected_count, got $key_count_final"
   exit 1

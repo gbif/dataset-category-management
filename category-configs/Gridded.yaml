@@ -1,0 +1,17 @@
+# candidate datasets for CitizenScience category
+keep:
+  publisherKey:
+  searchQuery: # please use only single words
+
+exclude:
+  publisherKey: []
+  searchQuery: []
+
+# automatically tags datasets with machine-tag label 
+autoLabel: 
+
+# candiates are generated from machineTags 
+machineTag: 
+  namespace: griddedDataSet.jwaller.gbif.org
+
+
