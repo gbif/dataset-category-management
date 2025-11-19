@@ -57,7 +57,7 @@ jobs:
       - name: Install R dependencies
         run: |
           Rscript -e "install.packages('pak', repos='https://cloud.r-project.org/')"
-          Rscript -e "pak::pkg_install(c('httr','yaml','data.table','dplyr','rgbif','tibble','readr','stringr','purrr'))"
+          Rscript -e "pak::pkg_install(c('tidyr','httr','yaml','data.table','dplyr','rgbif','tibble','readr','stringr','purrr'))"
           Rscript -e "pak::pkg_install('jhnwllr/gbifmt')"
 
       - name: Run shell scripts
