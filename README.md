@@ -22,6 +22,7 @@ Currently we support the following categories:
 
 * eDNA
 * CitizenScience
+* Gridded
 
 We are also expected to support the following categories in the future:
 
