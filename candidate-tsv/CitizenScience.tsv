@@ -840,6 +840,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 46780410-149d-4096-b336-05f69a440cf9	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""cathstorer""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 46c74244-ad5c-419f-a863-0798b61d86c4	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""adelmouton""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 46d0efca-77eb-4e26-8fe1-09d26ee015ac	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""angeliquemichel""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+46d4faf7-72af-4ce3-88af-5599998de77e	NA	enthusiasts	Peracarida: Panama, Bocas del Toro 2024	493fe050-055d-11d8-b84f-b8a03c50a862	CitizenScience
 46fa899b-1c7c-4283-b121-2b893b0e86d3	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""puigneulos""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 470a2d7e-e802-4182-884f-272fffc3f53f	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""delbrassinne""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 4718437d-76c6-432b-9883-4b9a253ac53f	NA	natuurpunt	INBO collaborator Occurrences of invertebrates recorded in waarnemingen.be in Flanders, Belgium	1cd669d0-80ea-11de-a9d0-f1765f95f18b	CitizenScience
@@ -1189,6 +1190,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 5ea06fcc-27ef-4d36-bb92-d436060f0810	NA	citizen	New records of Ctenolepisma calvum (Ritter,1910) (Zygentoma, Lepismatidae) from Japan	750a8724-fa66-4c27-b645-bd58ac5ee010	CitizenScience
 5ea7bb4e-a1c0-41ba-9da1-d9f5b9dd6c4b	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""lslymg""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 5ea84774-7b73-4b0b-8e3c-97f1dfc55dda	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""rollinde""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+5eca68df-aa52-418f-8d1e-94c640a61be4	NA	amateur	Herbarium A. Mornet (BOUM)	32b45fb7-1992-4f30-95c8-1604a38a57fa	CitizenScience
 5ef7913c-40c5-4aa9-9123-876618144c20	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""gnapata""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 5f0faea2-d3c1-402c-a340-214323be3f32	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""valeriang""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 5f15ba83-da31-48ec-a096-4d11b19888e4	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""pierre_mascar""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -1635,6 +1637,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 8486f47e-ba8f-492b-a18a-801f10eb790b	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""masaonia""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 84938f94-1a51-4d3c-8fc5-cce5e44e07d1	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""soniafeiticeira""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 84949eb2-3233-4a4e-b329-505f6c2339a4	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""cecileclnx""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+84a649ce-ff81-420d-9c41-aa1de59e3766	NA	citizen	ALA species sightings and OzAtlas	3c5e4331-7f2f-4a8d-aa56-81ece7014fc8	CitizenScience
 84cca7ba-f762-11e1-a439-00145eb45e9a	f1f8a1e3-d00a-4f73-a9c0-afe7674ff948	citizen	ConDidact Citizen Science Surveys - Spiders 2004 Butterflies 2005	f1f8a1e3-d00a-4f73-a9c0-afe7674ff948	CitizenScience
 84ce7e35-637f-4057-be54-ae0e7c778aa6	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""epsffc""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 84d26682-f762-11e1-a439-00145eb45e9a	NA	citizen	Danish Mycological Society, fungal records database	ccc2e3ec-98ba-4e74-878d-7dcf0f57baba	CitizenScience
@@ -2840,6 +2843,7 @@ eb063816-69b3-409f-bd05-88e76c4098e8	NA	happywhale	Happywhale - Risso's dolphin 
 eb1d8ec9-e90c-4e04-9647-6384052a4f8b	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""erikabee""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 eb1fbde4-9d4c-4d22-9efb-12e2d41008de	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""jeanine-anne""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 eb456941-0eec-4d23-912b-967d47708286	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""emileaz""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+eb477342-875e-450a-b377-cf405f315f16	NA	ebird	Martin Butterfield Mallacoota Observations	3c5e4331-7f2f-4a8d-aa56-81ece7014fc8	CitizenScience
 eb4f4ae6-a03d-4d41-92ee-d32d485b6aab	NA	happywhale	Happywhale - Striped dolphin in North Pacific Ocean	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	CitizenScience
 eb5d6188-6f06-4eb4-94aa-e15a2ae75bb9	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""doppelhans""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 eb693a85-35e6-4879-81f5-537f92658622	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""dehel""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
