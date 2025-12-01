@@ -123,7 +123,6 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 1ab98b49-9f71-4fa8-894a-4d57b08c8135	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	marine metagenome Raw sequence reads	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 1b1643cc-ca0f-4f40-91f8-623751f5d494	NA	eDNA	Discovery of another new species of Charadrahyla (Anura, Hylidae) from the cloud forest of northern Oaxaca, México	7ce8aef0-9e92-11dc-8738-b8a03c50a862	eDNA
 1b851d7f-fc92-4e95-87a2-9fe577069e19	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	16S marine bacteria Raw sequence reads MEDEA2	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
-1b96001c-d557-46c6-a40b-d1de6526cbe4	NA	MDT, eDNA	Testing rukaya	3f3967bf-ecc7-4455-ba89-4e0ab6d6fd3c	eDNA
 1c771a70-78ac-44d6-8ff6-2efaa2078a96	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	Microbial community structure is affected by cropping sequences and bio-covers under long-term no-tillage	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 1ca4f2c1-b4ec-4626-b6c0-2dd1a5dd32c9	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	marine sediment metagenome Targeted loci environmental	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 1cbf68cb-c977-4898-9caf-10006332a87b	NA	eDNA, 18S	eDNA samples from the gut content and gut lining of Lanternfish for DNA metabarcoding using Nanopore short-read sequencing method along the 110°E meridian Second International Indian Ocean Expedition (IIOE-2) expedition RV Investigator voyage IN2019_V03 (2019)	5fa89f68-9af0-4a0d-8998-ea39695c1db9	eDNA
@@ -1266,6 +1265,7 @@ f3a8b1d6-a1d1-4292-8a7e-19c63a0825bd	NA	eDNA, 16S	Bacterial Diversity Assessment
 f44faab9-1031-4e11-8cb7-66fea12414bb	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Spatial variation of bacterioplankton in south Atlantic Bight	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 f4642044-eb59-4645-8928-1f6388c22eb8	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Marine biomonitoring: predicting biotic indices from eDNA metabarcoding	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 f4663bcf-9489-4ab3-92bf-9cf783c7132a	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	SJP and SJUP Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
+f47f8ecd-fc59-42f4-9d24-cbbc745bcac1	NA	eDNA, 18S, 16S	DFO Monthly GRDI Survey eDNA metabarcoding (18S) in the Bay of Fundy 2019-2021	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 f4bf0ddf-4904-45f7-af95-0635b1ba2674	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 18S	Whale fall	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 f4cbec57-f028-48de-a6d1-405d8a447bb4	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Microbial processes in iron-rich sediments of Lake Towuti, Indonesia: Disentangling the methane and iron cycles	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 f4f5a6d7-38a5-463b-b017-64dfdd996703	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Coral Spawn Degradation, Bocas del Toro, Panama - Raw sequence reads	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA

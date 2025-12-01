@@ -6158,3 +6158,7 @@ a613147b-989c-4ecc-8f4a-966ea57940c9	eDNA
 afbea9af-0301-4cdf-9043-24888608424b	eDNA
 b20c6e37-2f4f-44ca-94fa-ccf85ac8ecff	eDNA
 b93d6936-6e6b-445c-a2b4-c94bf5c237e2	eDNA
+0a46c53b-4926-485a-9492-46ade93d2fad	CitizenScience
+72de2856-c6aa-407d-a6f1-4d2e23df4161	CitizenScience
+cfe86372-1ca4-45f0-a828-b2c4b7758c02	CitizenScience
+f47f8ecd-fc59-42f4-9d24-cbbc745bcac1	eDNA
