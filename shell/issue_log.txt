@@ -6162,3 +6162,10 @@ b93d6936-6e6b-445c-a2b4-c94bf5c237e2	eDNA
 72de2856-c6aa-407d-a6f1-4d2e23df4161	CitizenScience
 cfe86372-1ca4-45f0-a828-b2c4b7758c02	CitizenScience
 f47f8ecd-fc59-42f4-9d24-cbbc745bcac1	eDNA
+9105d363-8e5d-4d3f-9d74-a5e176f178fc	CitizenScience
+3fb290a8-4e33-4b56-99b9-a4771bca71e6	eDNA
+432bc41a-ed23-4ac0-b347-51193dad6e38	eDNA
+757e2be0-9adf-4af9-8d9f-9a0442c02c5e	eDNA
+8d3b43e3-1d5d-4cfb-af2c-f4b014536bd1	eDNA
+b8950b46-fcd3-4730-8ac7-32fdc86124d7	eDNA
+fb6939d1-0b75-497e-a54b-2a38a907bf05	eDNA

@@ -391,7 +391,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 1fef1ead-3d02-495e-8ff1-6aeb01123408	NA	citizen	Mosquito Alert Dataset	7f7b1e09-01e5-4eb3-8dc0-6a3a6bea9a5c	CitizenScience
 2006f748-5c10-44f0-b7c0-f0ea14640131	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""armandfou""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 202af80e-3bd1-4856-9f67-833588872230	NA	bioblitz	Local BioBlitz Challenge 2013	d2b97690-bfd6-11de-b279-d52977ace833	CitizenScience
-203112b0-8279-48c1-8bad-7e119bf64171	NA	citizen	Dataset of Acoustic Recordings of Bottlenose Dolphins Collected During Boat-Based Encounters Using HydroMoth Devices, Event 006 (2024-12-01)	ad2c7028-26fd-49c6-88d2-457c207c387b	CitizenScience
+203112b0-8279-48c1-8bad-7e119bf64171	NA	citizen	Dataset of Bottlenose Dolphin Acoustic Recordings from Boat-Based Encounters Using HydroMoth Devices, Event 006 (2024-12-01)	ad2c7028-26fd-49c6-88d2-457c207c387b	CitizenScience
 206c3122-cb8f-4015-a044-3b8ff0b8b6bd	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""em_wazo""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 208dfaf9-a223-4bf4-8b26-774d4e55e663	NA	bénévoles	Association naturaliste d'étude et de protection des écosystèmes CAUDALIS - Données ANEPE CAUDALIS 1919-2020	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 2095a279-667b-4254-a483-47a23fb8478c	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes Luis Ballester (luisballester)	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -871,7 +871,6 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 4850fc66-c5da-4ee3-8b51-d371dc9ba654	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""tzoor""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 48527336-7ead-4877-8152-55f3e657409c	NA	amateur, spotters	Great British Bee Count 2016 - Stage 2 (records verified from photo)	a805118b-b918-45b4-a54e-2b03fe6ef5c1	CitizenScience
 486a60fd-b2f5-48b2-9fe4-fb7bcf08ca6f	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""pierrickroche""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
-486cd65a-182f-4d7d-b65f-af382bacb7cb	NA	citizen	Presence of cetaceans in Sicilian waters, Ionian and Tyrrhenian Sea (records 2008-2019)	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	CitizenScience
 4880a2e5-2825-4a67-a52c-2def922f3141	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""bigreg""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 4893c3f4-1959-4345-b795-d6b2697a9120	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""jos61p""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 4896f82a-ff72-4d14-bf2a-780b86ab03f7	NA	volunteer	NSW Bird Atlassers - Field Data	c04876ed-3e07-417b-97ef-bc5071f97a5c	CitizenScience
@@ -1788,6 +1787,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 90dd8641-29c6-4806-b785-d139ebbe5275	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""ebworld""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 90ed67b8-fd3a-4f64-ba9a-5d3fde87107f	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""jossth""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 9103ce93-8752-4307-92ea-36c5804e5d2f	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""jmmaes""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+9105d363-8e5d-4d3f-9d74-a5e176f178fc	NA	citizen	MINKA_Danube Delta Open Living Lab	ad2c7028-26fd-49c6-88d2-457c207c387b	CitizenScience
 91370a65-e1cb-4b59-96c7-e060923a0b26	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""lemarchandappoigny""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 913fd61d-511b-44db-a934-e7dcd2181bad	NA	happywhale	Happywhale - Gentoo penguin in Southern Ocean	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	CitizenScience
 91462973-974a-4d38-be8c-f4748cbd6163	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""versico""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -2531,7 +2531,7 @@ cf95cabd-4b38-4013-ae98-e0d0c72c9771	NA	inaturalist	Données naturalistes opport
 cfa1749b-7c39-4f0d-8330-8529b0bb6dc0	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""rumsais_blatrix""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 cfa2b635-3f4f-4eda-8dc1-401620bda692	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""flavine""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 cfdb629a-25b9-4186-87ea-e533adeed637	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""hunderose""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
-cfe86372-1ca4-45f0-a828-b2c4b7758c02	NA	ciudadana	Seguimiento de la población de Caballito de mar (Hippocampus guttulatus) en el Mar menor, Región de Murcia (España)	954aac0f-9dbf-4ea9-badb-f3885555ba93	CitizenScience
+cfe86372-1ca4-45f0-a828-b2c4b7758c02	NA	citizen, ciudadana	Seguimiento de la población de Caballito de mar (Hippocampus guttulatus) en el Mar menor, Región de Murcia (España)	954aac0f-9dbf-4ea9-badb-f3885555ba93	CitizenScience
 cffde4b7-a3d1-4910-b36d-238ffa04dafd	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""helene79410""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 d01152d6-8781-40ee-ab08-72320606f8c1	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""fredericnantes""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 d015c8d2-b847-4007-a401-7c4685d53218	NA	citizen	Explore Your Shore	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	CitizenScience
