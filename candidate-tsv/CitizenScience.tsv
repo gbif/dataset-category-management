@@ -705,6 +705,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 3b36102b-e822-4dd9-8cb4-359d4ae54ee0	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""mhiweld""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 3b4c43b1-92f8-4a2a-8a4e-0a0e7c5d2b54	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes Brice DEREPAS (bricederepas)	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f	NA	citizen	BIOWIDE eDNA Fungi dataset	299958e0-4c06-11d8-b290-b8a03c50a862	CitizenScience
+3b91f3e4-17da-4965-a8d5-4e8c9296477b	NA	citizen	SeaWatch-B: citizens monitoring the Belgian North Sea from the beach (2014-2018)	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	CitizenScience
 3bb95789-5b0b-4160-b0eb-42e873e2ce31	NA	bénévoles	Données NEO-Observations Bénévoles NEO	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 3be44a65-238e-4412-80ad-3e47c2775b85	NA	citizen	""Pola"" Expedition: Mollusks, in the Eastern Mediterranean and the Adriatic Sea, 1890-1894	96d7ceab-ce9f-4c8a-8d3a-448a5637094a	CitizenScience
 3c075cc4-ccc4-4502-a8e9-5e40cc154ee7	NA	happywhale	Happywhale - Bryde's whale in South Pacific Ocean	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	CitizenScience
@@ -1274,6 +1275,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 65169a6f-b183-4afa-976e-1e353eb4869e	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""aegir33""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 651a9533-3969-46fd-9588-231a219c4683	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""biben""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 651d3a3c-c983-4fe1-8053-401a986331d4	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""chatondesbois""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
+651fc93e-58d7-43e4-93d9-828e3a8b5547	NA	inaturalist	Native Bee Society of BC Bee Atlas Collection	2077c240-e320-4bc7-8513-ffaecb2a8a11	CitizenScience
 6526c5a0-2e30-46c5-a72b-ffa7a3bb8b6c	NA	bénévoles	Association naturaliste d'étude et de protection des écosystèmes CAUDALIS-Base de données ANEPE Caudalis 2021	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 65316f14-7b35-4406-88f8-1cd24213edae	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""louanne20""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 655d7175-54fb-4a8a-b71d-cfefc4abb342	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""bastien2612""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
@@ -1553,7 +1555,6 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 7cb242c4-5709-4e83-9a2f-27f5f1da8462	NA	participative	Données de la quête INPN Espèces : Enquête Grenouille taureau	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 7cc5a9c2-4e29-407e-9dd6-40a1c5efd47e	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""manue64""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 7d20d1af-28f6-4c90-b96b-d1515809c2cd	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""mcr1100""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
-7d3ad006-2cec-4488-ad1f-6e5998602de0	NA	citizen	Data from the 1935-1936 cruises of the Belgian training ship Mercator 3 Pisces collection	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	CitizenScience
 7d40797e-7244-4177-a463-7c821977c8a3	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""mossy76""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 7d4a540e-b69b-4227-ac39-61f803680670	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes ""chabouchabou""	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
 7da43ce4-19f8-4190-be66-f0e08d244bf4	NA	inaturalist	Données naturalistes opportunistes issues de la plateforme INaturalist-Données naturalistes opportunistes Anja Cervencl (anjacervencl)	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	CitizenScience
