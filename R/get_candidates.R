@@ -2,9 +2,32 @@
 library(rgbif)
 library(yaml)
 
-cats <- yaml.load_file("config.yaml")$categories
+# Parse command line arguments
+args <- commandArgs(trailingOnly = TRUE)
+
+# Get all categories from config
+all_cats <- yaml.load_file("config.yaml")$categories
+
+# If a category is provided as argument, use only that one; otherwise use all
+if (length(args) > 0) {
+    requested_cat <- args[1]
+    if (requested_cat %in% all_cats) {
+        cats <- requested_cat
+        cat("Running for single category:", requested_cat, "\n")
+    } else {
+        stop(paste("Error: Category '", requested_cat, "' not found. Available categories:", 
+                   paste(all_cats, collapse = ", ")))
+    }
+} else {
+    cats <- all_cats
+    cat("Running for all categories:", paste(cats, collapse = ", "), "\n")
+}
 
 from_search_query <- function(query) {
+    # Handle empty or NULL input
+    if (is.null(query) || length(query) == 0) {
+        return(data.frame(datasetKey = character(0), searchQuery = character(0), stringsAsFactors = FALSE))
+    }
     lapply(query, function(x) { 
         rgbif::dataset_export(q=x) |>
         dplyr::select(datasetKey) |>
@@ -16,6 +39,10 @@ from_search_query <- function(query) {
 }
 
 from_publisher_key <- function(publisher_key) {
+    # Handle empty or NULL input
+    if (is.null(publisher_key) || length(publisher_key) == 0) {
+        return(data.frame(datasetKey = character(0), publisherKey = character(0), stringsAsFactors = FALSE))
+    }
     lapply(publisher_key, function(x) { 
         rgbif::dataset_export(publishingOrg=x) |>
         dplyr::select(datasetKey) |>

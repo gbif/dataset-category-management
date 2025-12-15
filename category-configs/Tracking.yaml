@@ -1,0 +1,19 @@
+# candidate datasets for Tracking category
+keep:
+  publisherKey: []
+  searchQuery: # please use only single words
+    - tracking
+    - telemetry
+    - gps
+    - satellite
+    - argos
+    - movebank
+    - biologging
+    - tagging
+
+exclude:
+  publisherKey: []
+  searchQuery: []
+  
+# automatically tags datasets with machine-tag label 
+autoLabel: []

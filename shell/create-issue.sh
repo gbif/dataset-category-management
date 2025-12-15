@@ -3,6 +3,27 @@
 # Initialize issue counter
 issue_counter=0
 
+# Parse command line arguments
+CATEGORY_ARG="$1"
+
+# Determine which files to process
+if [ -n "$CATEGORY_ARG" ]; then
+    # Check if the category file exists
+    if [ -f "candidate-tsv/${CATEGORY_ARG}.tsv" ]; then
+        FILES="candidate-tsv/${CATEGORY_ARG}.tsv"
+        echo "Processing single category: $CATEGORY_ARG"
+    else
+        echo "Error: Category file 'candidate-tsv/${CATEGORY_ARG}.tsv' not found."
+        echo "Available categories:"
+        ls candidate-tsv/*.tsv | sed 's|candidate-tsv/||' | sed 's|.tsv||'
+        exit 1
+    fi
+else
+    # Process all TSV files
+    FILES="candidate-tsv/*"
+    echo "Processing all categories"
+fi
+
 # Function to check GitHub API rate limit
 check_rate_limit() {
     echo "Checking GitHub API rate limit..."
@@ -14,7 +35,7 @@ check_rate_limit() {
     echo "GraphQL remaining: $graphql_remaining"
     
     # If remaining requests are less than 100, pause for 1 hour 10 minutes
-    if [ "$graphql_remaining" -lt 300 ]; then
+    if [ "$graphql_remaining" -lt 400 ]; then
         echo "GraphQL rate limit low ($graphql_remaining remaining). Pausing for 1 hour 10 minutes..."
         sleep 4200  # Sleep for 1 hour 10 minutes (4200 seconds)
         echo "Resuming after rate limit pause..."
@@ -25,7 +46,7 @@ check_rate_limit() {
 echo "Starting script - checking initial rate limit..."
 check_rate_limit
 
-for file in candidate-tsv/*; do
+for file in $FILES; do
     # Do something with "$file"
     echo "Processing $file"
     echo "---------------------"
@@ -45,7 +66,27 @@ for file in candidate-tsv/*; do
         # creating issue 
         label="${label%,}"  # Remove trailing comma
         label="${label//[[:space:]]/}"
-        body="[Dataset](https://www.gbif.org/dataset/$datasetKey)"$'\n'"[MachineTag](https://registry.gbif.org/dataset/$datasetKey/machineTag)"        
+        
+        # Fetch dataset description from GBIF API
+        dataset_json=$(curl -s "https://api.gbif.org/v1/dataset/$datasetKey")
+        description=$(echo "$dataset_json" | jq -r '.description // ""')
+        
+        # Strip HTML tags from description
+        description=$(echo "$description" | sed 's/<[^>]*>//g')
+        
+        # Limit description to 2000 characters
+        if [ ${#description} -gt 2000 ]; then
+            description="${description:0:2000}..."
+        fi
+        
+        # Build issue body
+        body="[Dataset](https://www.gbif.org/dataset/$datasetKey)"$'\n'"[MachineTag](https://registry.gbif.org/dataset/$datasetKey/machineTag)"
+        
+        # Add description if it exists
+        if [ -n "$description" ] && [ "$description" != "null" ]; then
+            body="$body"$'\n\n'"## Description"$'\n'"$description"
+        fi
+        
         echo "$title"
         echo "$body"
         echo "$label"
