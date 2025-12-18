@@ -2,7 +2,7 @@
 
 set -uo pipefail
 
-# Initialize issue counter
+# Initialize issue counte
 issue_counter=0
 
 # Function to check GitHub API rate limit
@@ -16,7 +16,7 @@ check_rate_limit() {
     echo "GraphQL remaining: $graphql_remaining"
     
     # If remaining requests are less than 100, pause for 1 hour 10 minutes
-    if [ "$graphql_remaining" -lt 300 ]; then
+    if [ "$graphql_remaining" -lt 500 ]; then
         echo "GraphQL rate limit low ($graphql_remaining remaining). Pausing for 1 hour 10 minutes..."
         sleep 4200  # Sleep for 1 hour 10 minutes (4200 seconds)
         echo "Resuming after rate limit pause..."

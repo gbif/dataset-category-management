@@ -1,6 +1,7 @@
 # candidate datasets for Tracking category
 keep:
-  publisherKey: []
+  publisherKey: 
+    - 6772852d-ca2e-496f-9bea-dcf86134cb19
   searchQuery: # please use only single words
     - tracking
     - telemetry
@@ -10,10 +11,13 @@ keep:
     - movebank
     - biologging
     - tagging
+    - transmitter
 
 exclude:
-  publisherKey: []
-  searchQuery: []
+  publisherKey: 
+    - 7ce8aef0-9e92-11dc-8738-b8a03c50a862 # plazi
+  searchQuery: 
+    - Anecdata
   
 # automatically tags datasets with machine-tag label 
 autoLabel: []

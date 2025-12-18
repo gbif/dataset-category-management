@@ -44,7 +44,7 @@ if [ -z "$category" ]; then
   exit 1
 fi
 
-# Validate github_issue is a number
+# Validate github_issue is a numbe
 if ! [[ "$github_issue" =~ ^[0-9]+$ ]]; then
   echo "github_issue must be a numeric value."
   exit 1
