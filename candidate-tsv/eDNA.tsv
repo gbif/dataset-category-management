@@ -11,6 +11,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 024c203a-f095-46d7-a57d-d4a4011f2146	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	Bacterial diversity of marine planktonic size-fractionated samples	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 024ef930-6138-4cd7-b7e5-31a93dd9f80a	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	marine sample sequencing	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 0270ba00-4b1f-4ed6-9a88-de906a04fba5	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Spatial and environmental variation in whole microbial communities in Fildes Bay, King George Island, Antarctica Raw sequence reads	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
+02bbf292-ce04-4573-835a-fd4a36a3e575	NA	18S	DFO Maritimes Zooplankton Metabarcoding (18S) AEIP 2019	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 032d1bd7-0603-4f23-8df1-4960cbd6c8a1	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Trace element-contaminated soil Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 03584cef-aa44-471a-a887-539b9a4e868a	NA	18S	A new species of Heterospio (Annelida, Longosomatidae) from the Indian Ocean	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
 03b1ca38-6225-406a-b2d6-ed47605802d1	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	2011 depth sediment Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
@@ -171,7 +172,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 222fd799-0041-4067-8d1a-a36e6df1cc72	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	White sea picoplankton Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 22521af2-162a-4cc5-9f09-a3329fe88231	NA	MDT, eDNA	Australian Microbiome ITS1 (Fungi) Dataset of Terrestrial Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
 226712d5-7bcd-4fb4-8a55-ad98162d0088	NA	eDNA	UNH - Coastal New England MBON - Atlantic cod	6772852d-ca2e-496f-9bea-dcf86134cb19	eDNA
-227eb73f-9b53-4a66-b2ef-e12c960d76ba	NA	16S	Australian Microbiome 16S (Bacteria) Dataset of Aquatic Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
+227eb73f-9b53-4a66-b2ef-e12c960d76ba	NA	MDT, 16S	Australian Microbiome 16S (Bacteria) Dataset of Aquatic Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
 22853f51-25e9-40c2-9bd0-ed995b2346d8	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	Funtonal metagenomic of salt resistance	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 22f1d0f1-3bf5-4f2c-b979-667fcd9db2bb	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Zostera Marina Ammonification environmental	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 23307e3f-3bd6-47e7-8d8e-21e272ba6691	NA	18S	An integrative redescription of Echiniscus quadrispinosus quadrispinosus Richters, 1902 (Heterotardigrada, Echiniscidae) from the terra typica in Taunus Mountain Range (Europe; Germany)	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
@@ -239,7 +240,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 2df7ae37-2ff6-4328-92bb-e17b7028dd75	NA	eDNA, 16S	Lancang-Mekong microbiome project 16S rRNA metabarcode (March - December 2021)	793b035f-e8c9-4b0a-b5dc-46ba0146d28f	eDNA
 2ea0c121-6695-4ca8-8956-147517488767	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 18S, 16S	rDNA amplicon sequencing of Western North Atlantic microbial community	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 2eafa2ef-7b0b-46e8-bae9-9907dacefcf5	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Preservation of ancient eukaryotic DNA in methane hydrate-associated marine sediments.	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
-2ee8b795-6d1c-4a91-9316-5258febe077d	NA	MDT, 16S	Australian Microbiome 16S (Archaea) Dataset of Aquatic Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
+2ee8b795-6d1c-4a91-9316-5258febe077d	NA	MDT, eDNA, 16S	Australian Microbiome 16S (Archaea) Dataset of Aquatic Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
 2eecc049-0955-4231-a615-aa355c3f28b0	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Oxygen minimal zone Targeted loci environmental	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 2ef11e3b-275c-4f37-b33f-ac2f6978f0e8	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	seawater metagenome Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 2f59254d-ec45-4a4c-9dbd-079f02d7b413	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	15N methylamine SIP (WCO station L4)	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
@@ -410,6 +411,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 4e7820a7-1958-4fc2-bce4-3c71ab4475f8	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	16S Amplicon Data from an Antarctic Cold Seep	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 4e7da2f8-d662-47f8-883c-881e41b82636	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Who eats the tough stuff  DNA stable isotope probing (SIP) of bacteria and fungi degrading 13C-labelled lignin and cellulose in forest soils	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 4e8b345e-635b-47ec-bda2-9e4c00e9a808	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Microbial consortium enriched at the cathode of a solar microbial fuel cell	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
+4eb20c92-816d-4a89-bf2a-484791f2966d	NA	16S	Cochlostoma Jan, 1830 revised: an overview of the subgenus Turritus Westerlund, 1883 and its species (Caenogastropoda, Cochlostomatidae)	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
 4ec9d31f-930b-4add-a381-8944ea0463eb	NA	16S	Molecular and morpho-anatomical assessment of the family Dorididae (Mollusca, Nudibranchia) in the Mediterranean and North-East Atlantic	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
 4f05727d-ba08-44bd-b35d-b1d9d20ca2ef	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Lake sediment sequencing	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 4f454f2e-83c6-4a45-a150-f4b8bff2119b	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Temporal sampling of marine metagenomes from Station ALOHA and BATS	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
@@ -583,6 +585,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 6d224a09-ba03-4b4f-babb-a1fa3bb3820b	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Nanticoke Harbour, ON, Canada (plankton SSU 454 sequencing)	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 6d2b1e38-6189-4542-ba36-94273f7b7f22	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Raw sequence reads from soil relic DNA study	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 6d504df4-2037-45b0-a61b-1e74dcafa4eb	NA	MDT, eDNA, 16S	Microbial Community Database (MiCoDa). A curated global 16S rRNA gene amplicon dataset from all environments	b48dbd22-0452-4c31-a6b5-28f04e99d8cf	eDNA
+6d6ac1ac-016c-448e-a92e-ad4c28a95fca	NA	eDNA, 18S	DFO Maritimes Lobster & Finfish eDNA metabarcoding (COI) in the Bay of Fundy 2018-2019	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 6da92471-27b1-460a-a47b-9fc668e4f018	NA	eDNA, 16S	UNESCO eDNA expedition in Brazilian Atlantic Islands: Fernando de Noronha and Atol das Rocas Reserves (Brazil): November 2022	b94c4428-77c1-47e0-a8c2-2b08228d8dd8	eDNA
 6df0a69a-07d0-49b1-ad0e-294d7b338d3f	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	uncultured eukaryote Raw sequence reads	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 6dfb5f20-5c61-4575-80a3-ecb6d286c725	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Santa Monica Basin seep sediment incubations to assess C and N sources for F430 synthesis	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
@@ -704,6 +707,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 818c9f7f-2c4b-48c0-8493-17821473c714	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Diversity and population structure of Marine Group A in the oxygen minimum zone of the Northeast subarctic Pacific Ocean	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 81920eb5-f8de-42c7-a498-a5600709c54f	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	Annual Dynamics of Bacterial & Archaeal Communities in the East Greenland Current (2018-2019)	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 81b3a27b-a462-435f-ad74-825c019e29cc	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	XRCWD sediment metagenome Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
+81b9cc60-f715-4711-9ed8-bb3a3f163ecd	NA	eDNA, 18S	DFO Arctic Metabarcoding (18S) 2015-2019	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 81d4bf16-8cfe-4984-b73d-cac5728cde29	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	LMO 2016, 2017 (0.2, 3-0.2, 3)	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 820ff166-940d-4d9c-b2c9-5abda213ac45	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 18S, 16S	Fringing reef Metagenome	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 8211ef89-8082-4af3-8388-2e75e8265369	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	the assembly of abundant and rare bacterioplankton subcommunities in three subtropical bays	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
@@ -868,7 +872,7 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 9f515257-deb3-424b-a178-78dffec05d84	NA	eDNA, 16S	16S analysis (pyrosequencing), Hainich grassland VIPs 2008	541c2668-9391-4479-b90f-fe90b365f33b	eDNA
 9f5f1c0a-65fb-439a-b6f4-7416e25f1dd1	NA	18S	New record and new species of Laubierpholoe Pettibone, 1992 (Annelida, Sigalionidae) from the soft bottom of submarine caves near Marseille (Mediterranean Sea) with discussion on phylogeny and ecology of the genus	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
 9f8879f7-ae24-4c6c-9209-d62408e5dcbb	NA	16S	Arctic multi-year sea ice Bacteria	af290483-8639-4b58-87fb-a4824c65e577	eDNA
-9fc74265-28a7-4d62-97ea-33eb5588562e	NA	MDT, 18S	Australian Microbiome 18S (Eukaryote) Dataset of Aquatic Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
+9fc74265-28a7-4d62-97ea-33eb5588562e	NA	MDT, eDNA, 18S	Australian Microbiome 18S (Eukaryote) Dataset of Aquatic Samples	f188404c-d039-47c2-a74d-9601497a02a8	eDNA
 9fe229a7-9015-40a7-a212-e63ca57f9828	NA	16S	Microorganisms (Bacteria, Archaea and phototroph eukaryotes) from Fildes Bay, King George Island, Antarctica	af290483-8639-4b58-87fb-a4824c65e577	eDNA
 9fe6317a-f97e-4174-8c80-7d4f530f25ba	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	16S rRNA amplicon sequences of Baltic Sea bacterioplankton	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 a0494a31-ad77-4c86-8067-a14abf095b01	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 18S	Zooplankton communities in the coastal water of northeastern Hokkaido	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
@@ -1217,6 +1221,7 @@ da450c94-538b-4161-9ff2-65da5c2990e1	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 
 da721ba0-b47b-4951-90f8-c95f99026ce9	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	aquatic bacterial metagenome Raw sequence reads	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 da7627ca-3a28-4792-a015-3b23f5babe52	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	Sea spray aerosols at Three California Beaches	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 da810b16-c15f-49f9-96d4-5473a2cb57da	NA	eDNA, 16S	Archaea from the ANDEEP3 expedition	fb10a11f-4417-41c8-be6a-13a5c8535122	eDNA
+da88825b-4793-4c7f-8ba2-f6eeab1777d8	NA	eDNA, 18S	DFO Maritimes Lobster & Finfish eDNA metabarcoding (18S) in the Bay of Fundy 2018-2019	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 daaf1560-e484-43c8-a93d-c3b9dfcbc6f1	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	16S amplicons New Zealand agricultural soils	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 dabb020c-9e4e-4e61-b058-bec11779f71b	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA, 16S	Soil marker gene sequences across the Nutrient Network	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
 daec52c4-851d-48a5-8e4c-50240a4910d2	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA	Dispersant experiment using Pensacola beach water	ab733144-7043-4e88-bd4f-fca7bf858880	eDNA
