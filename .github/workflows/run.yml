@@ -1,12 +1,12 @@
 name: Run Dataset Category Management
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: '0 0 * * 1'  # Run every Monday at 00:00 UTC
+# on:
+  # push:
+    # branches: [ main ]
+  # pull_request:
+    # branches: [ main ]
+  # schedule:
+    # - cron: '0 0 * * 1'  # Run every Monday at 00:00 UTC
 
 env:
   GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}

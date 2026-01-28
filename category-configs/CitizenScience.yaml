@@ -23,7 +23,6 @@ keep:
     - bioblitz
     - participative
     - ciudadana
-    - irecord
     - natuurpunt
     - participate
     - amateur 
@@ -46,7 +45,6 @@ autoLabel:
     - inaturalist
     - happywhale
     - bioblitz
-    - irecord
     - pub:28eb1a3f-1c15-4a95-931a-4af90ecb574d # iNaturalist 
     - pub:1989b627-2a61-44db-83e4-392efc5da0a9 # Divebord
     - pub:da86174a-a605-43a4-a5e8-53d484152cd3 # Pl@ntNet

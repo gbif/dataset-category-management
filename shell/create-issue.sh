@@ -63,9 +63,6 @@ for file in $FILES; do
             echo "DatasetKey $datasetKey already exists for category $datasetCategory. Skipping."
             continue
         fi        
-        # creating issue 
-        label="${label%,}"  # Remove trailing comma
-        label="${label//[[:space:]]/}"
         
         # Fetch dataset description from GBIF API
         dataset_json=$(curl -s "https://api.gbif.org/v1/dataset/$datasetKey")
@@ -74,10 +71,43 @@ for file in $FILES; do
         # Strip HTML tags from description
         description=$(echo "$description" | sed 's/<[^>]*>//g')
         
-        # Limit description to 2000 characters
-        if [ ${#description} -gt 2000 ]; then
-            description="${description:0:2000}..."
+        # Limit description to GitHub's issue body limit (65536 characters)
+        if [ ${#description} -gt 65536 ]; then
+            description="${description:0:65536}..."
         fi
+        
+        # Validate search terms against title and description
+        matching_terms=""
+        if [ "$searchQuery" != "NA" ]; then
+            # Split searchQuery by comma and check each term
+            IFS=',' read -ra search_terms <<< "$searchQuery"
+            for term in "${search_terms[@]}"; do
+                # Trim whitespace
+                term=$(echo "$term" | xargs)
+                # Check if term appears in title or description (case-insensitive)
+                if echo "$title" | grep -iq "$term" || echo "$description" | grep -iq "$term"; then
+                    [ -n "$matching_terms" ] && matching_terms+=","
+                    matching_terms+="$term"
+                else
+                    echo "Search term '$term' not found in title or description. Excluding from labels."
+                fi
+            done
+            
+            # Skip issue creation if no search terms matched
+            if [ -z "$matching_terms" ]; then
+                echo "No search terms found in title or description. Skipping issue creation."
+                continue
+            fi
+        fi
+        
+        # creating issue - rebuild label with only matching search terms
+        label=""
+        [ "$datasetKey" != "NA" ] && label+="$datasetKey,"
+        [ "$datasetCategory" != "NA" ] && label+="$datasetCategory,"
+        [ "$publisherKey" != "NA" ] && label+="pub:$publisherKey,"
+        [ -n "$matching_terms" ] && label+="$matching_terms,"
+        label="${label%,}"  # Remove trailing comma
+        label="${label//[[:space:]]/}"
         
         # Build issue body
         body="[Dataset](https://www.gbif.org/dataset/$datasetKey)"$'\n'"[MachineTag](https://registry.gbif.org/dataset/$datasetKey/machineTag)"
