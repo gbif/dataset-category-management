@@ -110,7 +110,7 @@ from_machine_tag <- function(namespace) {
     }
 }
 
-filter_by_description <- function(cand) {
+filter_by_description <- function(cand, category) {
     # Filter candidates based on whether searchQuery terms appear in title or description
     # Skip filtering if there's no searchQuery column or if it's all NA
     if(is.null(cand$searchQuery) || all(is.na(cand$searchQuery))) {
@@ -153,6 +153,25 @@ filter_by_description <- function(cand) {
     
     cand_filtered <- cand[keep_rows, ]
     
+    # Log filtered-out datasets to checked_log.txt to avoid re-checking them
+    filtered_out <- cand[!keep_rows, ]
+    if(nrow(filtered_out) > 0) {
+        checked_log_file <- "shell/checked_log.txt"
+        checked_entries <- data.frame(
+            datasetKey = filtered_out$datasetKey,
+            category = category,
+            stringsAsFactors = FALSE
+        )
+        
+        # Append to checked_log.txt
+        if(file.exists(checked_log_file)) {
+            readr::write_tsv(checked_entries, checked_log_file, append = TRUE, col_names = FALSE)
+        } else {
+            readr::write_tsv(checked_entries, checked_log_file, col_names = FALSE)
+        }
+        cat("Added", nrow(filtered_out), "filtered datasets to checked_log.txt\n")
+    }
+    
     # Remove the description column as it's no longer needed
     cand_filtered$description <- NULL
     
@@ -172,6 +191,14 @@ already_processed <- data.frame(datasetKey = character(0), category = character(
 if(file.exists(issue_log_file)) {
     already_processed <- readr::read_tsv(issue_log_file, col_names = c("datasetKey", "category"), show_col_types = FALSE)
     cat("Loaded", nrow(already_processed), "already processed datasets from issue log.\n")
+}
+
+# Read checked log to skip already checked and filtered datasets
+checked_log_file <- "shell/checked_log.txt"
+already_checked <- data.frame(datasetKey = character(0), category = character(0), stringsAsFactors = FALSE)
+if(file.exists(checked_log_file)) {
+    already_checked <- readr::read_tsv(checked_log_file, col_names = c("datasetKey", "category"), show_col_types = FALSE)
+    cat("Loaded", nrow(already_checked), "already checked (filtered) datasets from checked log.\n")
 }
 
 # Process each category
@@ -203,8 +230,16 @@ for(cat in cats) {
                 cat("Skipped", initial_count - nrow(cand), "datasets already in issue log for", cat, "\n")
             }
             
+            # Remove datasets already checked and filtered out for this category
+            already_in_checked <- already_checked |> dplyr::filter(category == cat)
+            if(nrow(already_in_checked) > 0) {
+                initial_count <- nrow(cand)
+                cand <- cand |> dplyr::filter(!datasetKey %in% already_in_checked$datasetKey)
+                cat("Skipped", initial_count - nrow(cand), "datasets already in checked log for", cat, "\n")
+            }
+            
             # Filter by description/title
-            cand <- filter_by_description(cand)
+            cand <- filter_by_description(cand, cat)
         }
     } else {
         # keep searches and publishers
@@ -244,6 +279,14 @@ for(cat in cats) {
             cat("Skipped", initial_count - nrow(cand), "datasets already in issue log for", cat, "\n")
         }
         
+        # Remove datasets already checked and filtered out for this category
+        already_in_checked <- already_checked |> dplyr::filter(category == cat)
+        if(nrow(already_in_checked) > 0) {
+            initial_count <- nrow(cand)
+            cand <- cand |> dplyr::filter(!datasetKey %in% already_in_checked$datasetKey)
+            cat("Skipped", initial_count - nrow(cand), "datasets already in checked log for", cat, "\n")
+        }
+        
         # add additional information for GitHub issue
         if(nrow(cand) > 0) {
             cand <- cand |> 
@@ -252,7 +295,7 @@ for(cat in cats) {
             dplyr::mutate(datasetCategory = cat)
             
             # Filter by description/title
-            cand <- filter_by_description(cand)
+            cand <- filter_by_description(cand, cat)
         }
     }
 
