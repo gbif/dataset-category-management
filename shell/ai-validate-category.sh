@@ -79,8 +79,8 @@ create_label_if_missing() {
     local label_color="$2"
     local label_description="$3"
     
-    # Check if label exists
-    if ! gh label list --limit 1000 | grep -q "^${label_name}"; then
+    # Check if label exists (use fixed string match to avoid regex issues)
+    if ! gh label list --limit 1000 | grep -qF "$label_name"; then
         echo "Creating missing label: $label_name"
         gh label create "$label_name" --color "$label_color" --description "$label_description" 2>/dev/null || true
     fi
@@ -292,7 +292,7 @@ if [ "$SINGLE_ISSUE_MODE" = true ]; then
     
     # Extract datasetKey from labels
     datasetKey=$(echo "$issue_json" | jq -r '.labels[].name' | \
-        grep -E '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$' | head -1)
+        grep -E '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$' | head -1)
     
     if [ -z "$datasetKey" ]; then
         echo "Error: No datasetKey found in labels for issue #$ISSUE_NUMBER."
@@ -465,7 +465,7 @@ for category in "${categories[@]}"; do
         # Extract datasetKey from labels
         echo "[DEBUG] Extracting datasetKey from labels..."
         datasetKey=$(echo "$issue_json" | jq -r '.labels[].name' | \
-            grep -E '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$' | head -1 || true)
+            grep -E '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$' | head -1 || true)
         
         echo "[DEBUG] datasetKey: '$datasetKey'"
         

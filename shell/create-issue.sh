@@ -159,7 +159,7 @@ for file in $FILES; do
         # Create missing labels
         IFS=',' read -ra labels <<< "$label"
         for l in "${labels[@]}"; do
-            if ! gh label list | grep -q "^$l"; then
+            if ! gh label list | grep -qF "$l"; then
                 gh label create "$l" --color "#ededed" --description "Auto-generated label"
             fi
         done
