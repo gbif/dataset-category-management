@@ -46,6 +46,42 @@ check_rate_limit() {
 echo "Starting script - checking initial rate limit..."
 check_rate_limit
 
+# Count how many new issues would be created
+echo "Counting new issues to be created..."
+new_issue_count=0
+
+for file in $FILES; do
+    while IFS=$'\t' read -r datasetKey publisherKey searchQuery title publisher datasetCategory; do
+        # Check if this exact datasetKey + datasetCategory combination exists in the log
+        if ! grep -Fq "${datasetKey}	${datasetCategory}" shell/issue_log.txt; then
+            # Check if issue already exists in GitHub
+            if ! gh issue list --state all --search "$title" --label "$datasetKey" --label "$datasetCategory" 2>/dev/null | grep "$title" | grep "$datasetKey" | grep -q "$datasetCategory"; then
+                ((new_issue_count++))
+            fi
+        fi
+    done < <(tail -n +2 "$file")
+done
+
+echo "Number of new issues to be created: $new_issue_count"
+
+# Safety check: fail if more than 100 issues would be created
+if [ "$new_issue_count" -gt 100 ]; then
+    echo "ERROR: Attempting to create $new_issue_count issues, which exceeds the safety limit of 100."
+    echo "This may indicate an error in the candidate selection process."
+    echo "Please review the candidate TSV files and ensure they are correct."
+    echo ""
+    echo "If you need to create more than 100 issues, please run the script manually in batches or adjust the safety limit."
+    exit 1
+fi
+
+if [ "$new_issue_count" -eq 0 ]; then
+    echo "No new issues to create. Exiting."
+    exit 0
+fi
+
+echo "Proceeding to create $new_issue_count new issues..."
+echo ""
+
 for file in $FILES; do
     # Do something with "$file"
     echo "Processing $file"

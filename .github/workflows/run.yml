@@ -1,18 +1,19 @@
 name: Run Dataset Category Management
 
-# on:
-  # push:
-    # branches: [ main ]
-  # pull_request:
-    # branches: [ main ]
-  # schedule:
-    # - cron: '0 0 * * 1'  # Run every Monday at 00:00 UTC
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 1'  # Run every Monday at 00:00 UTC
 
 env:
   GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
   GBIF_USER: ${{ secrets.GBIF_USER }}
   GBIF_PWD: ${{ secrets.GBIF_PWD }}
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
 jobs:
   run-project:
