@@ -110,7 +110,69 @@ from_machine_tag <- function(namespace) {
     }
 }
 
+filter_by_description <- function(cand) {
+    # Filter candidates based on whether searchQuery terms appear in title or description
+    # Skip filtering if there's no searchQuery column or if it's all NA
+    if(is.null(cand$searchQuery) || all(is.na(cand$searchQuery))) {
+        cat("No search queries to filter by, keeping all candidates.\n")
+        return(cand)
+    }
+    
+    if(nrow(cand) == 0) {
+        return(cand)
+    }
+    
+    cat("Filtering candidates by checking if search terms appear in title or description...\n")
+    initial_count <- nrow(cand)
+    
+    # Add description column by fetching from GBIF
+    cat("Fetching descriptions for", nrow(cand), "datasets...\n")
+    descriptions <- sapply(cand$datasetKey, function(x) {
+        desc <- rgbif::dataset_get(x)$description
+        if(is.null(desc)) return("")
+        return(tolower(gsub("[\t\r\n]", " ", desc)))
+    })
+    
+    cand$description <- descriptions
+    
+    # Filter: keep only if at least one search term appears in title or description
+    keep_rows <- sapply(1:nrow(cand), function(i) {
+        if(is.na(cand$searchQuery[i])) return(TRUE)  # Keep if no search query
+        
+        # Get all search terms (comma-separated)
+        search_terms <- trimws(unlist(strsplit(cand$searchQuery[i], ",")))
+        title_lower <- tolower(cand$title[i])
+        desc_lower <- cand$description[i]
+        
+        # Check if any search term appears in title or description
+        any(sapply(search_terms, function(term) {
+            grepl(tolower(term), title_lower, fixed = TRUE) || 
+            grepl(tolower(term), desc_lower, fixed = TRUE)
+        }))
+    })
+    
+    cand_filtered <- cand[keep_rows, ]
+    
+    # Remove the description column as it's no longer needed
+    cand_filtered$description <- NULL
+    
+    filtered_count <- nrow(cand_filtered)
+    removed_count <- initial_count - filtered_count
+    cat("Filtered out", removed_count, "datasets where search terms don't appear in title or description.\n")
+    cat("Remaining candidates:", filtered_count, "\n")
+    
+    return(cand_filtered)
+}
+
 # https://api.gbif.org/v1/dataset/c779b049-28f3-4daf-bbf4-0a40830819b6/gridded
+
+# Read issue log to skip already processed datasets
+issue_log_file <- "shell/issue_log.txt"
+already_processed <- data.frame(datasetKey = character(0), category = character(0), stringsAsFactors = FALSE)
+if(file.exists(issue_log_file)) {
+    already_processed <- readr::read_tsv(issue_log_file, col_names = c("datasetKey", "category"), show_col_types = FALSE)
+    cat("Loaded", nrow(already_processed), "already processed datasets from issue log.\n")
+}
 
 # Process each category
 for(cat in cats) {
@@ -132,6 +194,17 @@ for(cat in cats) {
                     publisher = sapply(cand$datasetKey, function(x) rgbif::dataset_get(x)$publishingOrganizationKey),
                     datasetCategory = cat
                 )
+            
+            # Remove datasets already processed for this category
+            already_in_log <- already_processed |> dplyr::filter(category == cat)
+            if(nrow(already_in_log) > 0) {
+                initial_count <- nrow(cand)
+                cand <- cand |> dplyr::filter(!datasetKey %in% already_in_log$datasetKey)
+                cat("Skipped", initial_count - nrow(cand), "datasets already in issue log for", cat, "\n")
+            }
+            
+            # Filter by description/title
+            cand <- filter_by_description(cand)
         }
     } else {
         # keep searches and publishers
@@ -163,12 +236,23 @@ for(cat in cats) {
             cand <- cand |> dplyr::filter(!datasetKey %in% es)
         }
         
+        # Remove datasets already processed for this category
+        already_in_log <- already_processed |> dplyr::filter(category == cat)
+        if(nrow(already_in_log) > 0) {
+            initial_count <- nrow(cand)
+            cand <- cand |> dplyr::filter(!datasetKey %in% already_in_log$datasetKey)
+            cat("Skipped", initial_count - nrow(cand), "datasets already in issue log for", cat, "\n")
+        }
+        
         # add additional information for GitHub issue
         if(nrow(cand) > 0) {
             cand <- cand |> 
             dplyr::mutate(title = sapply(cand$datasetKey, function(x) gsub("[\t\r\n]", "", rgbif::dataset_get(x)$title))) |>
             dplyr::mutate(publisher = sapply(cand$datasetKey, function(x) rgbif::dataset_get(x)$publishingOrganizationKey)) |>
-            dplyr::mutate(datasetCategory = cat) 
+            dplyr::mutate(datasetCategory = cat)
+            
+            # Filter by description/title
+            cand <- filter_by_description(cand)
         }
     }
 
