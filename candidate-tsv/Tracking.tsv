@@ -1,1 +1,3 @@
-datasetKey	publisherKey	searchQuery
+datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
+ccb2ed5f-798e-40fe-8017-95105e59c2f9	NA	tracking, satellite, tagging	VACAPES Offshore Study Area Observations	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
+f1b9687a-934a-453d-93ae-8bef177ebfde	NA	gps	Dedicated boat-based surveys for marine megafauna off Suriname in 2021	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
