@@ -1,0 +1,39 @@
+name: Create Category From Issue
+
+on:
+  workflow_dispatch:
+
+env:
+  GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
+  GBIF_USER: ${{ secrets.GBIF_USER }}
+  GBIF_PWD: ${{ secrets.GBIF_PWD }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  update-category:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
+
+      - name: Install shyaml
+        run: |
+          pip install shyaml
+
+      - name: Check GitHub CLI version
+        run: gh --version
+          
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Process all add-category issues
+        run: |
+          bash shell/create-category-from-issue.sh
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update categories from add-category issues"
