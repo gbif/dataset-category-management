@@ -159,11 +159,11 @@ fi
 
 echo $dataset_json | jq .
 
-resp=$(curl -s -o /dev/null -w "%{http_code}" \
+resp=$(echo "$dataset_json" | curl -s -o /dev/null -w "%{http_code}" \
   -u "$GBIF_USER:$GBIF_PWD" \
   -H "Content-Type: application/json" \
   -X PUT \
-  -d "$dataset_json" \
+  --data-binary @- \
   "$api/$uuid_dataset")
 
 echo "Response code from dataset update: $resp"
@@ -178,10 +178,10 @@ fi
 # 2. Add comment
 comment_json=$(jq -n --arg c "$comment" '{content: $c}')
 echo "$comment_json" | jq .
-resp=$(curl -s -o /dev/null -w "%{http_code}" \
+resp=$(echo "$comment_json" | curl -s -o /dev/null -w "%{http_code}" \
   -u "$GBIF_USER:$GBIF_PWD" \
   -H "Content-Type: application/json" \
-  -d "$comment_json" \
+  --data-binary @- \
   "$api/$uuid_dataset/comment")
 
 if [ "$resp" -eq 204 ] || [ "$resp" -eq 201 ]; then

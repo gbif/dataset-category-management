@@ -31,6 +31,13 @@ for cmd in gh jq grep sort uniq awk shyaml; do
     fi
 done
 
+# Check for required environment variables (needed by update-category.sh)
+if [ -z "${GBIF_USER:-}" ] || [ -z "${GBIF_PWD:-}" ]; then
+    echo "WARNING: GBIF_USER and/or GBIF_PWD environment variables are not set."
+    echo "update-category.sh will fail without these credentials."
+    echo "Issues will be found but not closed/labeled."
+fi
+
 # Initial rate limit check
 echo "Starting create-category-from-issue script - checking initial rate limit..."
 check_rate_limit
@@ -51,24 +58,39 @@ cat config.yaml | shyaml get-values categories | while read category; do
 
     for datasetKey in $datasetKeys; do
         echo "Processing datasetKey: $datasetKey for category: $category"
-        issue_number=$(gh issue list --label "$datasetKey" --label "add-category" --label "$category" --state open | awk '{print $1}')
+        issue_number=$(gh issue list --label "$datasetKey" --label "add-category" --label "$category" --state open --json number --jq '.[0].number')
         echo "Issue number: $issue_number"
-        if [ -z "$issue_number" ]; then
+        if [ -z "$issue_number" ] || [ "$issue_number" = "null" ]; then
             echo "No open issue found for datasetKey $datasetKey and category $category. Continuing to next dataset."
             continue
         fi
         # run update-category.sh
+        echo "Running update-category.sh for $datasetKey..."
         if bash shell/update-category.sh "$datasetKey" "$category" "$issue_number"; then
-            echo "update-category.sh succeeded for $datasetKey with category $category"
+            echo "✓ update-category.sh succeeded for $datasetKey with category $category"
         else
-            echo "update-category.sh failed for $datasetKey with category $category - continuing to next dataset"
+            echo "✗ update-category.sh failed for $datasetKey with category $category (exit code: $?)"
+            echo "  This usually means:"
+            echo "  - GBIF_USER or GBIF_PWD environment variables are not set"
+            echo "  - Network connection issue"
+            echo "  - Invalid dataset UUID"
+            echo "  Skipping issue closure for this dataset."
             continue
         fi
         
         # close this issue and add label "category-added"
         echo "Closing issue #$issue_number and adding label 'category-added'"
-        gh issue edit "$issue_number" --add-label "category-added" 
-        gh issue close "$issue_number" 
+        if gh issue edit "$issue_number" --add-label "category-added"; then
+            echo "Successfully added label 'category-added' to issue #$issue_number"
+        else
+            echo "Failed to add label to issue #$issue_number"
+        fi
+        
+        if gh issue close "$issue_number"; then
+            echo "Successfully closed issue #$issue_number"
+        else
+            echo "Failed to close issue #$issue_number"
+        fi
         
         # Increment counter and check rate limit every 5 issues
         ((issue_counter++))

@@ -34,7 +34,7 @@ cat config.yaml | shyaml get-values categories | while read cat; do
     cat category-configs/$cat.yaml | shyaml get-values autoLabel | while read label; do
         label="${label//- /}"
         echo " label: $label"
-        issues=$(gh issue list --state open --label "$label" --label "$cat" --limit 1000 | awk '{print $1}')
+        issues=$(gh issue list --state open --label "$label" --label "$cat" --limit 1000 --json number --jq '.[].number')
         echo "  issues found: $issues"
         for issue in $issues; do
             echo "  labeling issue $issue with add-category"
