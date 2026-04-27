@@ -9068,3 +9068,14 @@ dac737c4-f0e9-4448-8e96-b2b045df40a1	Tracking
 6b6568d0-300c-428c-9182-6d834147355d	eDNA
 790b619d-e9d2-4ba2-9a1d-994e933abbaf	eDNA
 9806a672-b859-4175-8432-f805b5ce8f30	eDNA
+4bd09733-fcb6-4520-9eba-2a6180dffe12	CitizenScience
+6d1f9651-75a6-4217-9d04-1543e19ece6e	CitizenScience
+8d1f9528-9cfc-456a-856a-43ba12ae523d	CitizenScience
+bd49bd7f-4161-4c7c-89d7-60f1e6a53633	CitizenScience
+5226c4fa-f81c-42cc-b11a-429f10ed28fa	Tracking
+6c70361d-eefb-4f91-984e-28cb39bc1969	Tracking
+a8e52885-3c37-4c18-ae8f-2f2c535e6d4e	Tracking
+c3500a08-9be7-4384-a3b3-ec147135399b	Tracking
+e10d6f03-f668-43a8-819e-bb22e0b5e4c9	Tracking
+e9070e94-8850-4bc6-8b6b-f6af24591b5d	Tracking
+a7e8072d-8c41-4f54-963c-12ef297b6e53	eDNA
