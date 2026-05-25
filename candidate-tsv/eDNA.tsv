@@ -1,22 +1,19 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 1814f21a-6255-427a-a069-6f41cc0e0d2a	NA	eDNA	DOC eDNA public records 2019	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
 3d1c4d98-3703-4405-8557-bea10451eb8b	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2024	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
+461d2e2f-da57-40a4-881a-fc2806e5facd	NA	18S, 16S	Data rescue from the article 'Global patterns and rates of habitat transitions across the eukaryotic tree of life' by Jamy et al., 2022.	0870a77b-587c-4369-a8ed-bc3d347b8e1c	eDNA
 5ac20023-2ada-4f7c-9c1e-975f2581a1d2	NA	eDNA	DOC eDNA public records 2022	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
 6fd4f43a-34a1-491c-934d-6be1cb94b704	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2022	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 72a513bc-97db-4723-8a96-99c0d721d9b5	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2021	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 79c6c2de-0db6-4c76-bac1-6c155c1a72f0	NA	eDNA	DOC eDNA public records 2024	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
 87bb9a46-777f-4258-bd45-63e16664c802	NA	eDNA	DOC eDNA public records 2025	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
-8b95efe0-204b-47d3-89d0-12d85f7f61de	NA	eDNA, 18S, 16S	Offshore Scotian Shelf biodiversity assessment using eDNA metabarcoding 2025	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 8c8f29d8-870b-44fd-82c0-c767734e0f27	NA	MDT, eDNA	eDNA-based Assessment of Marine Vertebrate Diversity in Svalbard Coastal Waters	cc9c6d3e-169f-46cb-ad4f-5aff30a65e78	eDNA
 90197a62-a0a0-4766-82bc-8aee74b0f495	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2020	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 9047e6c9-d722-46bc-8ab7-7c0671c9c523	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2023	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
-9c3dc69b-1e8a-42ea-ad51-1f686f8f3e43	NA	eDNA	Okeanos Explorer (EX2304): Seascape Alaska 3: Aleutians Remotely Operated Vehicle Exploration and Mapping	e59f6a41-3eac-46dc-a5e6-ed54c6aac35f	eDNA
-a6474305-bc0e-48e2-9bd5-4cd60fc79c15	NA	MDT, eDNA, 18S, 16S	Sampling design influences on airborne eDNA detections - 12SV5 marker	64bd66c1-e7d3-48d0-9462-488729aed122	eDNA
-aab94105-e9c4-48b6-b866-882edcfa9a76	NA	MDT, eDNA, 18S, 16S	Sampling design influences on airborne eDNA detections - Mam12 marker	64bd66c1-e7d3-48d0-9462-488729aed122	eDNA
+af4c5d8c-9ada-4663-b854-b96a88c663a8	NA	eDNA	Laelatu course 2026	0870a77b-587c-4369-a8ed-bc3d347b8e1c	eDNA
 b11eed71-2446-499d-90f0-cf54e6b36d70	NA	eDNA	DOC eDNA public records 2021	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
-b7584a87-d359-429c-bc7b-d19ee7b64677	NA	eDNA	Okeanos Explorer (EX2301): 2023 Shakedown + EXPRESS West Coast Exploration	e59f6a41-3eac-46dc-a5e6-ed54c6aac35f	eDNA
+cca458c0-d0e9-48fe-92dc-c7ba6134bc09	NA	eDNA	First DNA barcode reference library of grasshoppers on the Comoros Archipelago	750a8724-fa66-4c27-b645-bd58ac5ee010	eDNA
 e3b9f473-b41e-427e-89fc-990c973c8e05	NA	metagenom, eDNA, shotgun	Metagenomic Survey of Compost Fungi from Terceira (Azores Archipelago)	0a80feca-b411-428a-a34e-c5c2fa07cdba	eDNA
 e9057926-4d7a-4981-95ed-d4cea33a8cfd	NA	eDNA	DOC eDNA public records 2020	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
-f0bb28ad-fd47-44a1-87db-6e0fbcee5737	NA	eDNA	Okeanos Explorer (EX2306): Seascape Alaska 5: Gulf of Alaska Remotely Operated Vehicle Exploration and Mapping	e59f6a41-3eac-46dc-a5e6-ed54c6aac35f	eDNA
 f2e0cb2f-2bd6-47e4-bde2-bdbf706c033b	NA	eDNA, 18S, 16S	UNESCO eDNA expedition in Aldabra Atoll (Seychelles): April 2023	b94c4428-77c1-47e0-a8c2-2b08228d8dd8	eDNA
 f6e4ae5c-ea2d-49ca-8525-ca003f80bc9e	NA	eDNA	DOC eDNA public records 2023	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
