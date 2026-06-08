@@ -1,4 +1,19 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
-7fefb4a1-3b39-40b1-b9d3-ed6fe9b0e819	NA	tracking, telemetry, transmitter	2004_Gudena: Silver eel migration in the Gudena River, Denmark	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	Tracking
-85df6bdc-5837-4fd6-b889-082c4f1f3fa1	NA	tracking, telemetry	2011_Warnow: Silver eel migration in the Warnow catchment	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	Tracking
-e3cf6114-77ab-4201-9318-631f34ad8f36	NA	tracking, telemetry	2014_Nene: Downstream migration of silver eel Anguilla anguilla in the River Nene in 2014	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	Tracking
+00978c4d-ccec-49c0-ab1a-a6e6f33769e0	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Recreational Fisheries project	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+0179049e-2deb-477e-928b-bdd52790cd3e	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Smooth Dogfish Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+06e01904-3b82-4e7a-918b-42c097a6c586	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Juvenile Striped Bass Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+0980fb7a-2690-47c9-961f-8e625145390e	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Blue Catfish Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+32c5dc72-024b-4a67-b460-d8dc96ee8a86	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Blacktip Shark Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+3d1cc80b-75ec-4557-865a-0125f20d2d98	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	Pamlico Sound Sharks and Rays	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+45b07ab9-887b-46a6-b04b-f3c5887f32a8	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Alewife Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+523ccf29-b5eb-47c0-a88f-9c18d5ed67c4	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	DETR- Delaware Tributaries	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+52a48e27-a89b-467f-9955-9139b8e5e370	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Cownose Ray Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+53b01342-ac9a-4618-9dc5-6f3dba497cc0	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Dusky Shark Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+7175660d-a6a4-4ecd-91fd-d3d86515c5c3	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Blue Crab Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+906bba2d-4d47-45c5-a7a6-f261fe468672	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Chesapeake Bay Rivers Array	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+a4a5e75e-ef5c-4258-9239-ed5a6cac7df8	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Bull Shark Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+b057594c-83f5-42f7-8a08-488c66a28567	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Atlantic Stingray Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+c9a80fc8-1696-494c-8864-da5b7f417cff	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Spinner Shark Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+cc768c9a-3709-4a74-ab3e-8a12c31a87a4	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Atlantic Horseshoe Crab Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+f5703e0a-f2ea-4f6e-860e-5f68676a246d	NA	gps	Checklist of Vascular Plant Species in Communities Hosting Atraphaxis decipiens in Ulytau, Central Kazakhstan	866b32c9-6990-4c4e-8dea-ec9a96c9f1a5	Tracking
+fbfd4c01-90db-4d9d-8907-35ddefdeaddb	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	SERC Common Carp Study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
