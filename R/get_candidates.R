@@ -26,16 +26,19 @@ if (length(args) > 0) {
 from_search_query <- function(query) {
     # Handle empty or NULL input
     if (is.null(query) || length(query) == 0) {
-        return(data.frame(datasetKey = character(0), searchQuery = character(0), stringsAsFactors = FALSE))
+        return(data.frame(datasetKey = character(0), searchQuery = character(0), publishingOrganizationKey = character(0), stringsAsFactors = FALSE))
     }
     lapply(query, function(x) { 
         rgbif::dataset_export(q=x) |>
-        dplyr::select(datasetKey) |>
+        dplyr::select(datasetKey, publishingOrganizationKey) |>
         dplyr::mutate(searchQuery = x) 
     }) |> 
     dplyr::bind_rows() |>
     dplyr::group_by(datasetKey) |>
-    dplyr::summarise(searchQuery = toString(unique(searchQuery)))
+    dplyr::summarise(
+        searchQuery = toString(unique(searchQuery)),
+        publishingOrganizationKey = dplyr::first(publishingOrganizationKey)
+    )
 }
 
 from_publisher_key <- function(publisher_key) {
@@ -247,12 +250,9 @@ for(cat in cats) {
         print(config$keep$searchQuery)
         ks <- from_search_query(config$keep$searchQuery)
 
-        # exclude searches and publishers 
-        if(!length(config$exclude$publisherKey) == 0) {
-            ep <- from_publisher_key(config$exclude$publisherKey)$datasetKey
-        } else {
-            ep <- NULL
-        }
+        # Get exclude publisher and search query lists (no need to download datasets)
+        exclude_publishers <- if(!length(config$exclude$publisherKey) == 0) config$exclude$publisherKey else NULL
+        
         if(!length(config$exclude$searchQuery) == 0) {
             es <- from_search_query(config$exclude$searchQuery)$datasetKey
         } else {
@@ -263,10 +263,19 @@ for(cat in cats) {
         
         cand <- merge(kp, ks, by="datasetKey", all=TRUE) 
         
-        # remove datasets from exclude lists 
-        if(!is.null(ep)) {
-            cand <- cand |> dplyr::filter(!datasetKey %in% ep)
+        # Merge publishingOrganizationKey from search results if not already present
+        if("publishingOrganizationKey" %in% names(ks) && !"publishingOrganizationKey" %in% names(cand)) {
+            cand <- merge(cand, ks[, c("datasetKey", "publishingOrganizationKey")], by="datasetKey", all.x=TRUE)
         }
+        
+        # remove datasets from excluded publishers (filter by publisher key directly)
+        if(!is.null(exclude_publishers)) {
+            initial_count <- nrow(cand)
+            cand <- cand |> dplyr::filter(!(publisherKey %in% exclude_publishers | publishingOrganizationKey %in% exclude_publishers))
+            cat("Filtered out", initial_count - nrow(cand), "datasets from excluded publishers\n")
+        }
+        
+        # remove datasets from excluded search queries
         if(!is.null(es)) {
             cand <- cand |> dplyr::filter(!datasetKey %in% es)
         }
