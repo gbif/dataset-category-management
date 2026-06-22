@@ -1,7 +1,7 @@
-datasetKey	publisherKey	searchQuery	publishingOrganizationKey	title	publisher	datasetCategory
-00b0fd1b-bfa7-4b77-8e3c-c6f599d426e8	NA	volunteer	477a027a-0741-4ac4-b4b8-ad24c97324a2	HogWatch Scotland Project - West European hedgehog records between 2019 and 2021	477a027a-0741-4ac4-b4b8-ad24c97324a2	CitizenScience
-070e3f37-dd25-413e-a739-0167a3229e82	NA	inaturalist	bb922300-7ddb-11de-a300-90ac77aa923f	Redescription of Damastes leo (Simon, 1903), comb. nov. (Araneae, Sparassidae) from Madagascar with first description of the male	bb922300-7ddb-11de-a300-90ac77aa923f	CitizenScience
-3b91f3e4-17da-4965-a8d5-4e8c9296477b	NA	citizen	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	SeaWatch-B: citizens monitoring the Belgian North Sea from the beach (2014-2018)	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	CitizenScience
-4184e589-f1fb-4547-a274-34c1c69a97a7	NA	inaturalist	fc871c4a-bb5e-4db6-b332-487bc23797f1	Polystemma cualense (Apocynaceae), a new species from western Mexico	fc871c4a-bb5e-4db6-b332-487bc23797f1	CitizenScience
-4b0a310e-1af0-4b0a-a313-03e07d4bf9ca	NA	volunteer, ebird	8b734449-479a-4924-8f7a-9a2a64112f8f	Breeding bird monitoring in forest in National Park Thy	8b734449-479a-4924-8f7a-9a2a64112f8f	CitizenScience
-c0506dae-3e0b-4fcb-920e-dddd149e79dd	NA	volunteer, ebird	8b734449-479a-4924-8f7a-9a2a64112f8f	Breeding bird monitoring in open habitats in National Park Thy	8b734449-479a-4924-8f7a-9a2a64112f8f	CitizenScience
+datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
+00b0fd1b-bfa7-4b77-8e3c-c6f599d426e8	NA	volunteer	HogWatch Scotland Project - West European hedgehog records between 2019 and 2021	477a027a-0741-4ac4-b4b8-ad24c97324a2	CitizenScience
+070e3f37-dd25-413e-a739-0167a3229e82	NA	inaturalist	Redescription of Damastes leo (Simon, 1903), comb. nov. (Araneae, Sparassidae) from Madagascar with first description of the male	bb922300-7ddb-11de-a300-90ac77aa923f	CitizenScience
+3b91f3e4-17da-4965-a8d5-4e8c9296477b	NA	citizen	SeaWatch-B: citizens monitoring the Belgian North Sea from the beach (2014-2018)	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	CitizenScience
+4184e589-f1fb-4547-a274-34c1c69a97a7	NA	inaturalist	Polystemma cualense (Apocynaceae), a new species from western Mexico	fc871c4a-bb5e-4db6-b332-487bc23797f1	CitizenScience
+4b0a310e-1af0-4b0a-a313-03e07d4bf9ca	NA	volunteer, ebird	Breeding bird monitoring in forest in National Park Thy	8b734449-479a-4924-8f7a-9a2a64112f8f	CitizenScience
+c0506dae-3e0b-4fcb-920e-dddd149e79dd	NA	volunteer, ebird	Breeding bird monitoring in open habitats in National Park Thy	8b734449-479a-4924-8f7a-9a2a64112f8f	CitizenScience
