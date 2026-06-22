@@ -310,6 +310,11 @@ for(cat in cats) {
 
     cat("Final number of candidates for", cat, ":", nrow(cand), "\n")
     
+    # Remove publishingOrganizationKey column before writing TSV (only needed for filtering)
+    if(nrow(cand) > 0 && "publishingOrganizationKey" %in% names(cand)) {
+        cand <- cand |> dplyr::select(-publishingOrganizationKey)
+    }
+    
     # Print table of results showing number of datasets per searchQuery
     if(nrow(cand) > 0 && !is.null(cand$searchQuery)) {
         cat("\n--- Summary of datasets per searchQuery for", cat, "category ---\n")
