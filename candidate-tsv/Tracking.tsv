@@ -1,9 +1,2 @@
-datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
-0f832c2a-6f0f-4563-b3df-501a81bb339b	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	DWRpredator09	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
-594f0fe2-4782-4088-a876-ed36062a124c	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	UC Davis Ocean Striped Bass migration study	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
-74274f12-6704-43e0-bc97-f29c116550ec	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging, transmitter	CDFWA15	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
-94110c0e-e8ac-48cb-8c3b-ce66597a0e08	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, gps, tagging	DWROTAT2004	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
-baaad859-6d3b-4569-aabb-0c7a6e713708	NA	gps	2023-2024_nie_observation_pl_10040	6f2da4d9-8bd9-4f4f-852b-22cde4a43a01	Tracking
-ce4a5fa4-4fb2-4b58-89be-4a13a5a4eb93	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	MANGA - (Tag) Habitat use of oceanic manta rays	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
-d71f8c35-fce2-4dd5-a568-73b4705f13f9	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	UCSCNOAAOT22	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
-e5a9afdb-9a3b-4cd6-bcaf-edadebc8ca0e	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	USGSACEAM20	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+datasetKey	publisherKey	searchQuery	publishingOrganizationKey	title	publisher	datasetCategory
+097b3bd2-55e2-49cb-96a7-bebad5f4bd14	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	6772852d-ca2e-496f-9bea-dcf86134cb19	Predator and Prey Around Renewable Energy Developments (PrePARED)	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
