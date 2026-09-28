@@ -1,5 +1,10 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
+10524092-539d-4ea4-8539-2e91ad8581a9	NA	eDNA, 18S, 16S	CalCOFI October 2022 Vertebrate eDNA	e59f6a41-3eac-46dc-a5e6-ed54c6aac35f	eDNA
+167716b6-fd6d-4bdb-8cad-f43991af2fb6	NA	eDNA	DNA and Life – a national citizen science project using eDNA to monitor invasive, rare and endangered species in Danish aquatic ecosystems.	2e7df380-8356-4533-bcb3-5459e23c794e	eDNA
+17730ae2-0f7c-4346-a8d7-defc0492a294	NA	eDNA, 18S, 16S	Integrative taxonomy of northeastern Atlantic top-shells of the genus Jujubinus Monterosato, 1884 (Gastropoda, Trochidae, Cantharidinae)	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
 1814f21a-6255-427a-a069-6f41cc0e0d2a	NA	eDNA	DOC eDNA public records 2019	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
+230381a2-1a96-4064-8d0b-e00a56cd3ba5	NA	18S, 16S	Bacterias aisladas del coral Madracis auretenra en Inca Inca, Santa Marta, Colombia	81724943-d4d5-4b72-bfd6-3cfc5725c12a	eDNA
+341e5878-1075-40ac-bc52-b0fd7f693cb7	NA	MDT, eDNA	The first environmental DNA-based inventory of soil fungal diversity in Ukraine - ITS-based occurrences	a8b02799-6e2e-4084-a9e5-86c5917b75f1	eDNA
 3d1c4d98-3703-4405-8557-bea10451eb8b	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2024	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 5ac20023-2ada-4f7c-9c1e-975f2581a1d2	NA	eDNA	DOC eDNA public records 2022	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
 6fd4f43a-34a1-491c-934d-6be1cb94b704	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2022	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
@@ -10,7 +15,6 @@ datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
 90197a62-a0a0-4766-82bc-8aee74b0f495	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2020	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 9047e6c9-d722-46bc-8ab7-7c0671c9c523	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2023	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 b11eed71-2446-499d-90f0-cf54e6b36d70	NA	eDNA	DOC eDNA public records 2021	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
-c03d4cf1-b067-44d2-a5bc-5f147d804188	NA	MDT, eDNA	The first environmental DNA-based inventory of soil fungal diversity in Ukraine - SSU-based occurrences	a8b02799-6e2e-4084-a9e5-86c5917b75f1	eDNA
 e3b9f473-b41e-427e-89fc-990c973c8e05	NA	metagenom, eDNA, shotgun	Metagenomic Survey of Compost Fungi from Terceira (Azores Archipelago)	0a80feca-b411-428a-a34e-c5c2fa07cdba	eDNA
 e9057926-4d7a-4981-95ed-d4cea33a8cfd	NA	eDNA	DOC eDNA public records 2020	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
 f2e0cb2f-2bd6-47e4-bde2-bdbf706c033b	NA	eDNA, 18S, 16S	UNESCO eDNA expedition in Aldabra Atoll (Seychelles): April 2023	b94c4428-77c1-47e0-a8c2-2b08228d8dd8	eDNA
