@@ -1,21 +1,77 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
-10524092-539d-4ea4-8539-2e91ad8581a9	NA	eDNA, 18S, 16S	CalCOFI October 2022 Vertebrate eDNA	e59f6a41-3eac-46dc-a5e6-ed54c6aac35f	eDNA
-167716b6-fd6d-4bdb-8cad-f43991af2fb6	NA	eDNA	DNA and Life – a national citizen science project using eDNA to monitor invasive, rare and endangered species in Danish aquatic ecosystems.	2e7df380-8356-4533-bcb3-5459e23c794e	eDNA
-17730ae2-0f7c-4346-a8d7-defc0492a294	NA	eDNA, 18S, 16S	Integrative taxonomy of northeastern Atlantic top-shells of the genus Jujubinus Monterosato, 1884 (Gastropoda, Trochidae, Cantharidinae)	a064f300-1bc8-41ea-9364-b864ef4e8938	eDNA
+0971f775-16f4-4ac2-9e5d-403926c60a5d	NA	COI	Dicotiledóneas del cerro Tacarcuna-Chocó, en el marco del proyecto Colombia BIO 2017	e1050db2-9faf-4d72-b860-295debaf9d2a	eDNA
+0dd35b0d-ce4a-4c1a-8d56-dc8167e916f3	NA	COI	Chiroptères de La Réunion  - observations mise en base de données par GCOI - Données Chiroptères issues des prospections dans le cadre du projet d’amélioration des connaissances sur la répartition des gîtes naturels des petites espèces de Chiroptères insectivores sur l'île de La Réunion	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+0efc687d-9dd5-41a8-9547-cb472371330f	NA	COI	Diversity of long-spined sea urchins (Diadema spp.) in the Indo-Malay archipelago	e8eada63-4a33-44aa-b2fd-4f71efb222a0	eDNA
+15cc97cb-dcd9-46d4-a8e7-0fab3c448cde	NA	COI	Microorganismos promotores de crecimiento vegetal identificados a partir de la pulpa de café variedad C. arábica de predios caficultores del Resguardo Indígena Yewra, municipio de Pueblo Bello, Cesar	112087f6-a6c0-4cee-8441-387f900d34f9	eDNA
+1710f7e0-3e36-4243-be38-9f11f18f30ea	NA	ITS2	ITS samples from the air and snow of Livingston Island	af290483-8639-4b58-87fb-a4824c65e577	eDNA
+17e160c4-11ea-432e-95af-d65e84ec5953	NA	COI	Registros de ectoparásitos para la detección de patógenos emergentes (SARS-CoV-2) y re-emergentes (Rickettsias) en caninos procedentes del departamento de Santander	112087f6-a6c0-4cee-8441-387f900d34f9	eDNA
 1814f21a-6255-427a-a069-6f41cc0e0d2a	NA	eDNA	DOC eDNA public records 2019	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
-230381a2-1a96-4064-8d0b-e00a56cd3ba5	NA	18S, 16S	Bacterias aisladas del coral Madracis auretenra en Inca Inca, Santa Marta, Colombia	81724943-d4d5-4b72-bfd6-3cfc5725c12a	eDNA
-341e5878-1075-40ac-bc52-b0fd7f693cb7	NA	MDT, eDNA	The first environmental DNA-based inventory of soil fungal diversity in Ukraine - ITS-based occurrences	a8b02799-6e2e-4084-a9e5-86c5917b75f1	eDNA
+1b55b47a-fb73-4e2d-8dcb-613462edc05d	NA	COI	Chiroptères de La Réunion  - observations mise en base de données par GCOI - Export des données Roussettes noires  2018 issues des comptages de la colonie au dortoir	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+1b9d89ab-2847-4f88-94cb-9a01edb89404	NA	COI	Limitación y control de áreas de intervención en zonas con presencia de flora singular. Proyecto Desarrollo Mantoverde (RCA Nº16/2018, MMA)	511edc6f-f0db-48e6-93d8-6caebac539b1	eDNA
+2634d165-1be7-43c7-8c5f-ac605ba2d0ec	NA	ITS2	Fungi and fungi-like organisms - 4EU+ Summer School From Fungal Morphology to Genotype, Hajnowka 2021	04665d80-7e5f-11d8-a1a0-b8a03c50a862	eDNA
+265a65d2-4f03-443b-a7ca-c72768ea047f	NA	COI	Seguimiento Limitación y control de áreas de intervención en zonas con presencia de flora singular. Proyecto Desarrollo Mantoverde (RCA Nº16/2018, MMA)	511edc6f-f0db-48e6-93d8-6caebac539b1	eDNA
+2ff5a37c-7925-4472-95ca-617133f31b8e	NA	COI	Chiroptères de La Réunion  - observations mise en base de données par GCOI - Export des données historiques du GCOI du 09-01-2018 au 29-12-2019	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+3251d789-0ac6-418a-b3a7-7c10b20e4e12	NA	COI	Coleção de Mastozoologia do MZUSP	c461e0ec-aaa8-4601-bae9-4b08d6e804f1	eDNA
+37115f2e-a550-40c7-bc2c-f6b697fa7aca	NA	COI	COI Metabarcoding Genetic Observations of Marine Species in the Port of Wallhamn, Sweden (2022)	0ed04352-6745-4665-9e11-7117ee91a96b	eDNA
+3b0752b5-5c65-4198-8eef-680e3fec59e6	NA	COI	DFO Maritimes Zooplankton Metabarcoding (COI) AEIP 2019	c98a8d0d-cab2-4506-8c0f-c91a5e4996b9	eDNA
 3d1c4d98-3703-4405-8557-bea10451eb8b	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2024	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
+3f36f789-70be-4d36-aed0-82df8c3bcea2	NA	COI	Chiroptères de La Réunion  - observations mise en base de données par GCOI - GCOI_export20181017 JDD2	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+40a8aeb8-cf10-40b8-878d-54e6804ae9f9	NA	COI	Colección de insectos de importancia médica del Instituto Nacional de Salud - Ceratopogonidae	b8b274e0-3216-48b8-afea-5616ec326ce1	eDNA
+4c9be7ad-5e3c-47af-a69e-fae1513530ea	NA	COI	Registros de aves pertenecientes al complejo Mimus gilvus en Colombia	ec11396a-66ab-4e57-b9c1-a8aff1cb7a1d	eDNA
+515c8c99-b616-45d3-96c2-fe178e13c3bb	NA	COI	Propagación de especies leñosas y herbáceas en categoría de conservación. Proyecto Desarrollo Mantoverde (RCA Nº16/2018, MMA)	511edc6f-f0db-48e6-93d8-6caebac539b1	eDNA
+542b31ca-712f-43dd-8f1d-8eeefb88c9a3	NA	COI	ARMS-MBON data on long-term monitoring of hard-bottom communities: COI results from 2020-2021	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	eDNA
 5ac20023-2ada-4f7c-9c1e-975f2581a1d2	NA	eDNA	DOC eDNA public records 2022	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
+5cfa8dc3-f0d2-47af-889e-03a3918b22df	NA	COI	Chiroptères de La Réunion  - observations mise en base de données par GCOI - Export des données Chiroptères 2018 issues de l’action Sauv’Souris	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+6178f62f-a28e-4af0-aa20-b95bb3876217	NA	COI	Ocurrencia del canto de ballenas jorobadas en la REMAPE	d14718c5-ab17-428b-8523-fb9e9d6d2e9b	eDNA
+61b3f445-1684-42be-b918-a9b5d279419e	NA	COI	Seguimiento de los anfibios y reptiles de la Comunidad Autónoma del País Vasco	743cc32d-d83d-4e3a-a574-77d1725b1e08	eDNA
+6490e5c8-bae7-4a49-9a6e-79578511a373	NA	COI	Parc éolien Fresnoy-Folny (Coin Malo) - 76 - Fresnoy - Mortalité 2020	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+675aff3e-c820-45ef-a44d-8605532b12b2	NA	COI	Peces asociados a arrecifes y manglares en el Parque Nacional Coiba	b94c4428-77c1-47e0-a8c2-2b08228d8dd8	eDNA
+69b85440-5140-43da-9c43-240099ad06ec	NA	COI	Caracterización de especies bentónicas y bentopelágicas asociadas al Bajo Navegador, Dorsal Yuruparí, Colombia	eac88d99-9f6c-4031-8fc4-8088f0e0dfe7	eDNA
+6c7582e4-26f9-4dcb-9f5c-ff13a80447a7	NA	COI	Registros de anfibios y reptiles en dos corregimientos del municipio de Santa Rosa - Cauca, Colombia	7d91f9bd-f6cd-48e3-ba81-3c228cf5e13a	eDNA
+6d5fc2f8-bd5c-40f2-ae10-5b983a2083ec	NA	ITS2	York University Phenology Project - ITS2, library #2, >0.99 barcode matches	396d5f30-dea9-11db-8ab4-b8a03c50a862	eDNA
 6fd4f43a-34a1-491c-934d-6be1cb94b704	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2022	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 72a513bc-97db-4723-8a96-99c0d721d9b5	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2021	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
+786559c7-bf1d-4194-a8ed-78b31c148d14	NA	COI	Monitoreo de insectos benéficos asociados a Diaphorina citri en los departamentos de La Guajira y Santander	488f6b87-5688-4c9a-928c-2d5355054b01	eDNA
 79c6c2de-0db6-4c76-bac1-6c155c1a72f0	NA	eDNA	DOC eDNA public records 2024	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
+7b117ea6-29b0-4575-8cff-c7af7283340f	NA	COI	Coimbra Collection of Algae	e92e0710-24c4-11dc-a625-b8a03c50a862	eDNA
+7b579758-f762-11e1-a439-00145eb45e9a	NA	COI	Antarctic Isopods	104e9c96-791b-4f14-978c-f581cb214912	eDNA
+7c5815a5-7909-418b-87dc-af0cab0e57ce	NA	ITS2	Microbial soil Fungi (ITS2) diversity from Maritime Antarctica	af290483-8639-4b58-87fb-a4824c65e577	eDNA
+8494eb6f-f34a-481b-a398-5e033c347093	NA	COI	Incidencia de lepidópteros en árboles de arrayán en la cuenca media-baja del río Tunjuelo y en la cuenca del Salitre	eace4687-50e8-4f9a-829b-29ff8ff1fa8b	eDNA
 87bb9a46-777f-4258-bd45-63e16664c802	NA	eDNA	DOC eDNA public records 2025	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
 8c8f29d8-870b-44fd-82c0-c767734e0f27	NA	MDT, eDNA	eDNA-based Assessment of Marine Vertebrate Diversity in Svalbard Coastal Waters	cc9c6d3e-169f-46cb-ad4f-5aff30a65e78	eDNA
+8cff356d-d84f-42f7-93f8-dac680639943	NA	COI	Ant communities in the Galápagos: A baseline for biodiversity monitoring	4aaf1825-3ebd-4943-87a3-f67552d468f1	eDNA
 90197a62-a0a0-4766-82bc-8aee74b0f495	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2020	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
 9047e6c9-d722-46bc-8ab7-7c0671c9c523	NA	eDNA	HBRC eDNA occurrence across the Hawke's Bay Region 2023	cdec0330-a1af-4300-bfc5-f9ac986d5201	eDNA
+91c0ac4c-c650-4d8a-8574-966ff52bbe11	NA	COI	Registros de zooplancton de lagos altoandinos tropicales identificados a partir de la implementación de COI	ad3f9c5f-5021-45a3-a7c4-3e64895f6f79	eDNA
+928583a4-a3fd-481f-aa5a-6968dc7eaed8	NA	COI	Registros de venado cola blanca (Odocoileus virginianus) asociados al plan de conservación y manejo en el departamento de Casanare	66739018-f8c3-4902-96d5-82c0aec31d6a	eDNA
+97833cbe-90ef-41ed-a8fb-ca58230f3689	NA	COI	Evaluation des MAEC-Inventaire Invertébrés terrestres sur les prairies en MAEC	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+99350bf7-b320-4ff5-8303-dc690da304c2	NA	COI	Herbarium of University of Coimbra (COI) - Unlocking data on plant biodiversity for decision-making in São Tomé and Príncipe	d86a72a1-368c-42f3-ad96-9661523a716b	eDNA
+9d7778c1-2705-4a04-a9e9-a0b14b6f8a3d	NA	COI	Plantas útiles de Colombia colectadas en tres áreas de estudio: Bahía Solano (Chocó), Becerril (Cesar) y Otanche (Boyacá).	2a7e3080-28a9-11dd-97cd-b8a03c50a862	eDNA
+9dae1fa0-5800-4f18-8f4e-a87f05c73eb1	NA	COI	Circumpolar dataset of sequenced specimens of Promachocrinus kerguelensis (Echinodermata, Crinoidea)	fb10a11f-4417-41c8-be6a-13a5c8535122	eDNA
+a0d072fc-e6be-45d7-9fa8-afa4b38b788a	NA	COI	Colección Ornitológica del IADIZA-CCT CONICET Mendoza: IADIZA-COI	497c081b-8157-4287-bb5c-291a4c71439c	eDNA
+a2ea79be-bb29-4ec8-8aea-166dbeebfbe5	NA	COI	Two new species of Brueelia Kéler, 1936 (Ischnocera, Philopteridae) parasitic on Neotropical trogons (Aves, Trogoniformes)	bb922300-7ddb-11de-a300-90ac77aa923f	eDNA
+a4813c2b-7fb9-4713-9a21-b3be0ea9042d	NA	COI	Códigos de barras de ADN del marcador COI de aves y tejidos de la colección del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt	2a7e3080-28a9-11dd-97cd-b8a03c50a862	eDNA
+a559e942-0fbe-4f09-93ca-28cf244ce2a0	NA	COI	Herbarium of the University of Coimbra (COI)	d86a72a1-368c-42f3-ad96-9661523a716b	eDNA
+ade6fb20-f2d2-4db4-bc43-0c1919f132f8	NA	COI, ITS2	1999 - 2010 Alien species of Bugula (Bryozoa) along the Atlantic coasts of Europe Surveys of Marinas and Harbours	f6b48504-1651-4a49-a88d-c2bc6178694d	eDNA
+ae4757dd-55a6-4a1a-b2e3-ffc07cac7c65	NA	COI	Parc éolien Fresnoy-Folny (Coin Malo) - 76 - Fresnoy - Busards 2021	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
 b11eed71-2446-499d-90f0-cf54e6b36d70	NA	eDNA	DOC eDNA public records 2021	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
+b887f035-fe85-45e5-9970-e777de3aa0ad	NA	COI	Colección Entomológica del Tecnológico de Antioquia (CETdeA) - Muscidae	63da1b44-176a-4e9b-b418-28fcc182c676	eDNA
+b9afe2d0-b264-4422-bf8c-096b2a53c18f	NA	COI	ARMS-MBON data on long-term monitoring of hard-bottom communities: COI results from 2018-2020	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	eDNA
+bf0444bd-fca1-4988-b5a6-c9fa9f8d6946	NA	COI	Chiroptères de La Réunion  - observations mise en base de données par GCOI - GCOI_Export20180514	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+bf57eda2-c7eb-417b-be84-efd0fef92d76	NA	COI	Parc éolien Fresnoy-Folny (Coin Malo) - 76 - Fresnoy - Activité chiroptères 2020	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+c5542412-e7f0-40ce-b134-9a435a836e9b	NA	COI	Banco de Germoplama del Jardín Botánico de Castilla-La Mancha	21fdba08-5e3e-4b79-979c-aa65d824ea0d	eDNA
+c6cbf3f2-9bfe-489d-9d33-226fe236275b	NA	COI, ITS2	ARMS-MBON data on long-term monitoring of hard-bottom communities: ITS results from 2018-2020	2089ce96-4fb5-4a20-999c-3ccf45a27a4d	eDNA
+c8c5bf0f-b3b3-4271-a53a-449bf9ad8ad9	NA	COI	Inventaire chauve-souris Mayotte (GCOI, 2019) - Inventaire de chiroptères : étude acoustique pour un atlas des chiroptères de Mayotte	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+cc3fd2fa-ee0b-4549-bef8-f228ec1c40cc	NA	COI	Anfibios del Alto Río Igará - Paraná, Amazonas - Proyecto Colombia BIO	9d77fdeb-100f-4b29-98ad-4effdd824457	eDNA
+d922c79f-58ea-4a46-9611-b55bf71e1efa	NA	COI	Biodiversidad de fauna y flora en el área de desarrollo bloque Arrendajo en Paz de Ariporo, Casanare 2022 y 2024	591b93c8-b83c-45a4-8c8d-85728347a56c	eDNA
+dbdb2244-1af7-4e52-9619-47abed5fe953	NA	COI	Evaluation des MAEC-Inventaire Oiseaux sur les prairies en MAEC	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA
+deb97a37-48cc-4b5d-83fe-4f7384769c5e	NA	COI	Biota presente en el humedal laguna La Linda, departamento del Tolima	0bad0631-0693-41fa-afd5-54df0120c509	eDNA
+e00c5f31-b326-4cf8-aaa3-8688a2a10c2a	NA	COI	Registros de aves del Valle de Aburrá asociados al estudio del análisis de la conectividad ecológica funcional y estructural en el Área Metropolitana del Valle de Aburrá	bad9baef-be05-4410-83c8-31060a9bafb7	eDNA
+e14b2e80-771a-4e1a-8dfd-74009fa8c938	NA	COI, ITS2	1999 - 2010 Alien species of Bugula (Bryozoa) along the Atlantic coasts of Europe Surveys of Marinas and Harbours	f6b48504-1651-4a49-a88d-c2bc6178694d	eDNA
+e25ac472-37cc-40c9-9d57-73fa87dc6fc0	NA	COI	Seguimiento de aves comunes en las Illes Balears	e37fc40e-0541-4ffa-8a4c-0426d73804e8	eDNA
 e3b9f473-b41e-427e-89fc-990c973c8e05	NA	metagenom, eDNA, shotgun	Metagenomic Survey of Compost Fungi from Terceira (Azores Archipelago)	0a80feca-b411-428a-a34e-c5c2fa07cdba	eDNA
 e9057926-4d7a-4981-95ed-d4cea33a8cfd	NA	eDNA	DOC eDNA public records 2020	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
-f2e0cb2f-2bd6-47e4-bde2-bdbf706c033b	NA	eDNA, 18S, 16S	UNESCO eDNA expedition in Aldabra Atoll (Seychelles): April 2023	b94c4428-77c1-47e0-a8c2-2b08228d8dd8	eDNA
+edc4ab0b-1ad7-4e53-a741-4423d0196a06	NA	COI	NEON Biorepository Terrestrial Plant Collection (Leaf Tissue)	e794e60e-e558-4549-99f8-cfb241cdce24	eDNA
+f2e0cb2f-2bd6-47e4-bde2-bdbf706c033b	NA	eDNA, 18S, 16S, COI	UNESCO eDNA expedition in Aldabra Atoll (Seychelles): April 2023	b94c4428-77c1-47e0-a8c2-2b08228d8dd8	eDNA
 f6e4ae5c-ea2d-49ca-8525-ca003f80bc9e	NA	eDNA	DOC eDNA public records 2023	1bfac9af-cc42-4b4f-9d9c-1b456dd804d3	eDNA
+fdf4eb01-52ff-4458-bdfa-0c5951de5c71	NA	COI	Parc éolien Fresnoy-Folny (Coin Malo) - 76 - Fresnoy-Folny - Busards+Avifaune 2019	1928bdf0-f5d2-11dc-8c12-b8a03c50a862	eDNA

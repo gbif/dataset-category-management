@@ -11,6 +11,8 @@ keep:
     - shotgun
     - 18S
     - 16S
+    - COI
+    - ITS2
 
 exclude:
   publisherKey: 

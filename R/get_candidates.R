@@ -30,6 +30,7 @@ from_search_query <- function(query) {
     }
     lapply(query, function(x) { 
         rgbif::dataset_export(q=x) |>
+        dplyr::filter(is.na(type) | type != "CHECKLIST") |>
         dplyr::select(datasetKey, publishingOrganizationKey) |>
         dplyr::mutate(searchQuery = x) 
     }) |> 
@@ -48,6 +49,7 @@ from_publisher_key <- function(publisher_key) {
     }
     lapply(publisher_key, function(x) { 
         rgbif::dataset_export(publishingOrg=x) |>
+        dplyr::filter(is.na(type) | type != "CHECKLIST") |>
         dplyr::select(datasetKey) |>
         dplyr::mutate(publisherKey = x) 
     }) |> 
@@ -222,8 +224,11 @@ for(cat in cats) {
                     publisherKey = NA_character_,
                     title = sapply(cand$datasetKey, function(x) gsub("[\t\r\n]", "", rgbif::dataset_get(x)$title)),
                     publisher = sapply(cand$datasetKey, function(x) rgbif::dataset_get(x)$publishingOrganizationKey),
+                    type = sapply(cand$datasetKey, function(x) rgbif::dataset_get(x)$type),
                     datasetCategory = cat
                 )
+
+            cand <- cand |> dplyr::filter(is.na(type) | type != "CHECKLIST")
             
             # Remove datasets already processed for this category
             already_in_log <- already_processed |> dplyr::filter(category == cat)
@@ -313,6 +318,9 @@ for(cat in cats) {
     # Remove publishingOrganizationKey column before writing TSV (only needed for filtering)
     if(nrow(cand) > 0 && "publishingOrganizationKey" %in% names(cand)) {
         cand <- cand |> dplyr::select(-publishingOrganizationKey)
+    }
+    if(nrow(cand) > 0 && "type" %in% names(cand)) {
+        cand <- cand |> dplyr::select(-type)
     }
     
     # Print table of results showing number of datasets per searchQuery
