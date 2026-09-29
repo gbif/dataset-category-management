@@ -12,6 +12,7 @@ keep:
     - 18S
     - 16S
     - COI
+    - CO1
     - ITS2
 
 exclude:
