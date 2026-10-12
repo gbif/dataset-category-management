@@ -1,1 +1,5 @@
-datasetKey	publisherKey	searchQuery	publishingOrganizationKey
+datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
+256134b5-93d9-4928-8a4f-aea0cb5b4182	NA	tracking, gps, movebank, biologging	TURTUR_VLAANDEREN - European turtle doves (Streptopelia turtur, Columbidae) breeding in Flanders (Belgium)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
+299e7998-73f0-42ff-9fb7-d8a5a0cc44d1	NA	tracking, gps, movebank, biologging	CREX_VLAANDEREN - Corn crakes (Crex crex, Rallidae) in Flanders (Belgium)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
+ad8f3107-590d-4570-aac7-84241e9a20b4	NA	gps	Hong Kong Wetland Park Observation	21a10946-0eff-4c0a-bef4-54c471d2d07a	Tracking
+b6ce735c-bb9c-4026-a317-0e985cf088df	NA	tracking, telemetry, gps	Griffon Vulture (Gyps fulvus) movement in Serbia and neighbouring countries according to gps-tracker	19b71982-562f-4cd4-9af7-b48b80bc28b2	Tracking
