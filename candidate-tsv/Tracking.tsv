@@ -1,5 +1,5 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
-256134b5-93d9-4928-8a4f-aea0cb5b4182	NA	tracking, gps, movebank, biologging	TURTUR_VLAANDEREN - European turtle doves (Streptopelia turtur, Columbidae) breeding in Flanders (Belgium)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
-299e7998-73f0-42ff-9fb7-d8a5a0cc44d1	NA	tracking, gps, movebank, biologging	CREX_VLAANDEREN - Corn crakes (Crex crex, Rallidae) in Flanders (Belgium)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
-ad8f3107-590d-4570-aac7-84241e9a20b4	NA	gps	Hong Kong Wetland Park Observation	21a10946-0eff-4c0a-bef4-54c471d2d07a	Tracking
-b6ce735c-bb9c-4026-a317-0e985cf088df	NA	tracking, telemetry, gps	Griffon Vulture (Gyps fulvus) movement in Serbia and neighbouring countries according to gps-tracker	19b71982-562f-4cd4-9af7-b48b80bc28b2	Tracking
+22d1882b-1395-43c0-86de-1c7a5dcca216	NA	tracking, gps, movebank, biologging	RRP_VLAANDEREN - Rose-ringed parakeets (Psittacula krameri) breeding in Ghent (Belgium)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
+2534af01-af6f-43a2-a8a4-db1e67b16035	NA	satellite, tagging	Pan-Atlantic comparison of deep-water macrobenthos diversity collected by epibenthic sledge sampling and analysis of patterns and environmental drivers.	80420c96-95d0-44eb-9f77-339ac92051fb	Tracking
+9e055800-e83e-4769-82c2-a0602bf3d4b9	NA	tracking, gps	nsmk_bird_ob_2019	eb07eeb0-3db9-11d9-8439-b8a03c50a862	Tracking
+f754f270-8790-4134-8e01-aea9f0f468ff	NA	telemetry, satellite, tagging, transmitter	Satellite telemetry of green turtles from Spanish waters	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
