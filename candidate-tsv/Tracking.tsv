@@ -1,5 +1,6 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
-22d1882b-1395-43c0-86de-1c7a5dcca216	NA	tracking, gps, movebank, biologging	RRP_VLAANDEREN - Rose-ringed parakeets (Psittacula krameri) breeding in Ghent (Belgium)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
-2534af01-af6f-43a2-a8a4-db1e67b16035	NA	satellite, tagging	Pan-Atlantic comparison of deep-water macrobenthos diversity collected by epibenthic sledge sampling and analysis of patterns and environmental drivers.	80420c96-95d0-44eb-9f77-339ac92051fb	Tracking
+275b817e-91c0-48a0-a5a8-c8f441f1f5d2	NA	tracking	BOEMNanoTag_Mass_Sept2013b	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
+99285c66-6fc8-45a6-8a13-f810767d72ba	NA	tracking	BOEMNanoTag_Mass_Sept2013a	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
 9e055800-e83e-4769-82c2-a0602bf3d4b9	NA	tracking, gps	nsmk_bird_ob_2019	eb07eeb0-3db9-11d9-8439-b8a03c50a862	Tracking
-f754f270-8790-4134-8e01-aea9f0f468ff	NA	telemetry, satellite, tagging, transmitter	Satellite telemetry of green turtles from Spanish waters	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
+c871dd1b-e1e9-447d-ba76-2ad595f61ab1	NA	tracking	BOEMNanoTag_Mass_Aug2013	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
+cfc4cc99-1c4f-42df-89c5-41b632d3fb63	NA	tracking, biologging	CR-Birding - large gulls, blue ring with 4 letters (third=A E or O)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
