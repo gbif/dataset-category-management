@@ -1,6 +1,17 @@
 datasetKey	publisherKey	searchQuery	title	publisher	datasetCategory
-275b817e-91c0-48a0-a5a8-c8f441f1f5d2	NA	tracking	BOEMNanoTag_Mass_Sept2013b	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
-99285c66-6fc8-45a6-8a13-f810767d72ba	NA	tracking	BOEMNanoTag_Mass_Sept2013a	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
+1fff9517-cdca-45af-bc08-76d655634fb4	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, satellite, tagging	Kennebecasis Basin Salmon Tracking	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+25a53645-039a-4346-98a8-9e6c1e051b55	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	Tracking Migration and Habitat Use of Greenland Sharks (Somniosus microcephalus) from the Gulf of St.Lawrence to Nunavut	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+3538206a-5f6f-4aa9-b6cb-ba9ee0c829fb	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, tagging	PROJECT LEMON AID - Lemon Shark Stock Assessment and Distribution in the Turks and Caicos Islands	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+4a55edd4-6b17-4939-817b-ca4010b85607	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	AXA Shark Array	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+513db031-ca08-4565-8828-3c40c7f4955f	NA	tracking, telemetry, satellite, tagging, transmitter	Post-nesting migrations of olive ridley sea turtles from the Pacific coast of Mexico	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
+6fff7c4a-2b2f-4734-93f6-79ba35f2f5c5	NA	tracking	BirdLinks, National Bird Monitoring Database	d7ec30db-0d49-4213-82a9-55791806e865	Tracking
+8de15fc2-3e85-4d20-b2b6-79e02a133080	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, tagging	Mission Mjøsa, Research Track Water	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
 9e055800-e83e-4769-82c2-a0602bf3d4b9	NA	tracking, gps	nsmk_bird_ob_2019	eb07eeb0-3db9-11d9-8439-b8a03c50a862	Tracking
-c871dd1b-e1e9-447d-ba76-2ad595f61ab1	NA	tracking	BOEMNanoTag_Mass_Aug2013	67b2263f-6990-4d9d-b32b-20aa72ef4fbc	Tracking
-cfc4cc99-1c4f-42df-89c5-41b632d3fb63	NA	tracking, biologging	CR-Birding - large gulls, blue ring with 4 letters (third=A E or O)	1cd669d0-80ea-11de-a9d0-f1765f95f18b	Tracking
+a4a6f151-296f-482a-810a-ba7151bb8055	NA	gps	Lionfish (Pterois) sightings at a mangrove margin, Container Point, St. Croix, U.S. Virgin Islands, 2026	44e557ab-83c8-4412-a865-5697fd9184be	Tracking
+e575d83e-6fe6-4135-83f0-157c8f5239bf	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging, transmitter	Turks and Caicos Acoustic Telemetry (TCAT) Network	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+e83355a1-4cab-4ee5-948a-89d1289d4a74	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging, transmitter	Atlantic salmon (Salmo salar) smolts originating from the Jacques-Cartier River	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+ea6d1012-3946-4be3-a63e-2f8eef70933e	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, gps, tagging, transmitter	Scottish Salmonid Tracking Project	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+f143bb60-0383-4982-b952-54e6e807d7db	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	Using biotelemetry and underwater video within thermal refugia	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+f5b4b6e5-a773-4453-a198-57f3f6b5abf2	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	Site fidelity of sentinel fish species in the Lower Fraser River	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+f96b4ca3-9917-4aab-9299-b7cb09d71d07	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, tagging	East River of Pictou Brook Trout	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
+fbaea581-bf06-42ad-b8e3-5aa47b6398e4	6772852d-ca2e-496f-9bea-dcf86134cb19	tracking, telemetry, tagging	Smallmouth bass invasion in Southwest Margaree River, Nova Scotia	6772852d-ca2e-496f-9bea-dcf86134cb19	Tracking
