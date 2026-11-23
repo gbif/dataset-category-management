@@ -9402,3 +9402,7 @@ cfc4cc99-1c4f-42df-89c5-41b632d3fb63	Tracking
 850a8253-09fd-4b61-ac51-86b09ae7f6d1	eDNA
 939c5fde-f52d-4ac5-b440-63367007463e	eDNA
 ea561160-b6db-4d6c-971f-f91afb6d2b3b	eDNA
+12593a5c-a70c-4ae4-9aec-9cb14dff1161	CitizenScience
+32e10e6f-6caf-4608-9561-1f08d0ded455	CitizenScience
+6ee7bd7f-3fc9-4e0d-9e09-06e7aaa0fae3	eDNA
+aa7cbc4c-9ce2-40ea-852c-08e7cc430e89	eDNA
